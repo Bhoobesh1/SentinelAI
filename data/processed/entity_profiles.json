@@ -1,0 +1,3013 @@
+{
+  "USER_001": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Chennai"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_328",
+      "DEV_242"
+    ],
+    "device_weights": [
+      0.5108814197942433,
+      0.48911858020575666
+    ],
+    "ip_subnet": "10.34.22",
+    "active_hour_start": 9,
+    "active_hour_end": 17,
+    "active_on_weekends": false,
+    "typical_auth_method": "sso",
+    "resource_weights": {
+      "/internal-api": 0.6723569325162327,
+      "/wiki": 0.32764306748376726
+    },
+    "session_mean_minutes": 43.716392166203434,
+    "session_std_minutes": 6.01956727067576,
+    "command_pool": [
+      "rdp_connect",
+      "netstat",
+      "wget",
+      "export_csv",
+      "git_push"
+    ],
+    "command_weights": [
+      0.1526013025594087,
+      0.2802313666719818,
+      0.2563741624237055,
+      0.12700847033312546,
+      0.18378469801177855
+    ],
+    "activity_level": 0.6927458433801479
+  },
+  "USER_002": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Hyderabad"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_926",
+      "DEV_144"
+    ],
+    "device_weights": [
+      0.5372223676775582,
+      0.4627776323224418
+    ],
+    "ip_subnet": "10.24.20",
+    "active_hour_start": 8,
+    "active_hour_end": 18,
+    "active_on_weekends": false,
+    "typical_auth_method": "password",
+    "resource_weights": {
+      "/internal-api": 0.283373134627899,
+      "/telemetry": 0.25733590836669645,
+      "/email": 0.2408502803200787,
+      "/sensor-data": 0.2184406766853259
+    },
+    "session_mean_minutes": 33.27393017000965,
+    "session_std_minutes": 5.026831889188582,
+    "command_pool": [
+      "ps_aux",
+      "git_pull",
+      "query_db",
+      "sudo_su"
+    ],
+    "command_weights": [
+      0.33793206713759893,
+      0.1582299319728794,
+      0.20977999311636134,
+      0.29405800777316027
+    ],
+    "activity_level": 1.3291267979503492
+  },
+  "USER_003": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Mumbai"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_801",
+      "DEV_432"
+    ],
+    "device_weights": [
+      0.5113224619909629,
+      0.48867753800903724
+    ],
+    "ip_subnet": "10.14.210",
+    "active_hour_start": 6,
+    "active_hour_end": 15,
+    "active_on_weekends": false,
+    "typical_auth_method": "password",
+    "resource_weights": {
+      "/wiki": 0.41662080881061253,
+      "/admin-console": 0.3460860185920238,
+      "/hr-portal": 0.23729317259736363
+    },
+    "session_mean_minutes": 40.83308728999997,
+    "session_std_minutes": 4.917047916089566,
+    "command_pool": [
+      "query_db",
+      "ssh",
+      "git_pull",
+      "cat",
+      "grep",
+      "whoami",
+      "export_csv"
+    ],
+    "command_weights": [
+      0.1423784559573146,
+      0.17299181756340334,
+      0.12611156707398,
+      0.14893498632684357,
+      0.11633505462164442,
+      0.20982617081391794,
+      0.0834219476428962
+    ],
+    "activity_level": 0.7599820017224502
+  },
+  "USER_004": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Delhi",
+      "Chennai"
+    ],
+    "location_weights": [
+      0.5354152131443574,
+      0.46458478685564264
+    ],
+    "known_devices": [
+      "DEV_641",
+      "DEV_357",
+      "DEV_666"
+    ],
+    "device_weights": [
+      0.42511934037878735,
+      0.3861383875973113,
+      0.18874227202390143
+    ],
+    "ip_subnet": "10.34.192",
+    "active_hour_start": 8,
+    "active_hour_end": 18,
+    "active_on_weekends": false,
+    "typical_auth_method": "password",
+    "resource_weights": {
+      "/hr-portal": 0.3873202485494302,
+      "/internal-api": 0.36547641192523445,
+      "/wiki": 0.24720333952533532
+    },
+    "session_mean_minutes": 32.968337533806874,
+    "session_std_minutes": 6.931634248173687,
+    "command_pool": [
+      "zip_archive",
+      "scp",
+      "grep",
+      "netstat",
+      "sudo_su",
+      "ssh"
+    ],
+    "command_weights": [
+      0.2264795054542987,
+      0.16692731608414496,
+      0.1118779492467815,
+      0.14308033007564022,
+      0.10521642303224442,
+      0.24641847610689024
+    ],
+    "activity_level": 0.711867725320895
+  },
+  "USER_005": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Singapore"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_159",
+      "DEV_346"
+    ],
+    "device_weights": [
+      0.5109141013317462,
+      0.48908589866825386
+    ],
+    "ip_subnet": "10.5.187",
+    "active_hour_start": 9,
+    "active_hour_end": 17,
+    "active_on_weekends": false,
+    "typical_auth_method": "password",
+    "resource_weights": {
+      "/github": 0.3501556506744119,
+      "/telemetry": 0.2602197291753484,
+      "/internal-api": 0.2403807972113697,
+      "/hr-portal": 0.14924382293886987
+    },
+    "session_mean_minutes": 17.129792580270976,
+    "session_std_minutes": 7.786617743620593,
+    "command_pool": [
+      "git_push",
+      "ps_aux",
+      "whoami",
+      "wget",
+      "git_pull"
+    ],
+    "command_weights": [
+      0.252800712443425,
+      0.1943212399576548,
+      0.1415009187264652,
+      0.1291513672180491,
+      0.28222576165440594
+    ],
+    "activity_level": 0.8289417838111544
+  },
+  "USER_006": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Singapore"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_385",
+      "DEV_785"
+    ],
+    "device_weights": [
+      0.5114121816098649,
+      0.4885878183901351
+    ],
+    "ip_subnet": "10.36.147",
+    "active_hour_start": 9,
+    "active_hour_end": 17,
+    "active_on_weekends": false,
+    "typical_auth_method": "mfa_otp",
+    "resource_weights": {
+      "/internal-api": 0.40129715914124836,
+      "/email": 0.3098316194813128,
+      "/sensor-data": 0.2888712213774388
+    },
+    "session_mean_minutes": 20.504641073616998,
+    "session_std_minutes": 6.775768410405805,
+    "command_pool": [
+      "grep",
+      "cd",
+      "ps_aux",
+      "whoami"
+    ],
+    "command_weights": [
+      0.22893415794174538,
+      0.38467366076123016,
+      0.2019088557272386,
+      0.18448332556978578
+    ],
+    "activity_level": 1.47448595407058
+  },
+  "USER_007": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Mumbai"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_151"
+    ],
+    "device_weights": [
+      1.0
+    ],
+    "ip_subnet": "10.34.214",
+    "active_hour_start": 6,
+    "active_hour_end": 14,
+    "active_on_weekends": false,
+    "typical_auth_method": "mfa_otp",
+    "resource_weights": {
+      "/sensor-data": 0.5869871968932757,
+      "/internal-api": 0.4130128031067243
+    },
+    "session_mean_minutes": 19.64390475822192,
+    "session_std_minutes": 5.780246952967385,
+    "command_pool": [
+      "scp",
+      "ps_aux",
+      "ls",
+      "curl"
+    ],
+    "command_weights": [
+      0.1905149401993696,
+      0.3329993079050009,
+      0.24263669995908996,
+      0.23384905193653957
+    ],
+    "activity_level": 1.5687093649691588
+  },
+  "USER_008": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Pune"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_698"
+    ],
+    "device_weights": [
+      1.0
+    ],
+    "ip_subnet": "10.33.40",
+    "active_hour_start": 6,
+    "active_hour_end": 16,
+    "active_on_weekends": false,
+    "typical_auth_method": "mfa_push",
+    "resource_weights": {
+      "/wiki": 0.722129989101243,
+      "/hr-portal": 0.2778700108987569
+    },
+    "session_mean_minutes": 28.71673717711356,
+    "session_std_minutes": 9.574109990233085,
+    "command_pool": [
+      "grep",
+      "wget",
+      "cd",
+      "git_push",
+      "export_csv",
+      "curl",
+      "sudo_su"
+    ],
+    "command_weights": [
+      0.1534613125485486,
+      0.14423014248078192,
+      0.20667985329728553,
+      0.09594035218918169,
+      0.17355194666554308,
+      0.10115962363384144,
+      0.12497676918481782
+    ],
+    "activity_level": 1.5357342874448232
+  },
+  "USER_009": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Mumbai"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_175"
+    ],
+    "device_weights": [
+      1.0
+    ],
+    "ip_subnet": "10.32.67",
+    "active_hour_start": 7,
+    "active_hour_end": 16,
+    "active_on_weekends": false,
+    "typical_auth_method": "mfa_push",
+    "resource_weights": {
+      "/telemetry": 0.6828371345374988,
+      "/github": 0.3171628654625011
+    },
+    "session_mean_minutes": 21.107919369823588,
+    "session_std_minutes": 7.805427753310479,
+    "command_pool": [
+      "zip_archive",
+      "ls",
+      "git_push",
+      "query_db",
+      "sudo_su",
+      "cd"
+    ],
+    "command_weights": [
+      0.29141122521653756,
+      0.11994463726021971,
+      0.11592509638187777,
+      0.11413663400277331,
+      0.20921813849881057,
+      0.149364268639781
+    ],
+    "activity_level": 0.8639839016304094
+  },
+  "USER_010": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Hyderabad",
+      "Chennai"
+    ],
+    "location_weights": [
+      0.5658374134023866,
+      0.4341625865976135
+    ],
+    "known_devices": [
+      "DEV_145",
+      "DEV_103"
+    ],
+    "device_weights": [
+      0.5563875515544621,
+      0.4436124484455379
+    ],
+    "ip_subnet": "10.16.41",
+    "active_hour_start": 9,
+    "active_hour_end": 19,
+    "active_on_weekends": false,
+    "typical_auth_method": "mfa_otp",
+    "resource_weights": {
+      "/email": 0.3302331731298555,
+      "/source-control-prod": 0.2643297608942214,
+      "/sensor-data": 0.2546778499349534,
+      "/wiki": 0.15075921604096962
+    },
+    "session_mean_minutes": 44.215110679118666,
+    "session_std_minutes": 8.496865666861236,
+    "command_pool": [
+      "cd",
+      "git_push",
+      "whoami",
+      "query_db",
+      "ps_aux"
+    ],
+    "command_weights": [
+      0.28811960691708893,
+      0.09635739655696077,
+      0.16174822414895176,
+      0.22844374490345765,
+      0.2253310274735409
+    ],
+    "activity_level": 1.5257638225695564
+  },
+  "USER_011": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Singapore"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_522",
+      "DEV_125"
+    ],
+    "device_weights": [
+      0.652866476177073,
+      0.34713352382292684
+    ],
+    "ip_subnet": "10.26.205",
+    "active_hour_start": 7,
+    "active_hour_end": 16,
+    "active_on_weekends": false,
+    "typical_auth_method": "mfa_push",
+    "resource_weights": {
+      "/wiki": 0.5026224963103301,
+      "/internal-api": 0.49737750368967
+    },
+    "session_mean_minutes": 25.534383872482564,
+    "session_std_minutes": 7.056434053168225,
+    "command_pool": [
+      "curl",
+      "query_db",
+      "whoami",
+      "ssh",
+      "netstat"
+    ],
+    "command_weights": [
+      0.32982079800929176,
+      0.176823680556453,
+      0.1218683964036835,
+      0.167535873420988,
+      0.2039512516095838
+    ],
+    "activity_level": 1.2795181183602637
+  },
+  "USER_012": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Chennai"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_282",
+      "DEV_694"
+    ],
+    "device_weights": [
+      0.6360751760755886,
+      0.3639248239244115
+    ],
+    "ip_subnet": "10.6.152",
+    "active_hour_start": 9,
+    "active_hour_end": 18,
+    "active_on_weekends": false,
+    "typical_auth_method": "mfa_push",
+    "resource_weights": {
+      "/sensor-data": 0.3124969517918857,
+      "/hr-portal": 0.27617480748114104,
+      "/admin-console": 0.22358830879028552,
+      "/email": 0.18773993193668767
+    },
+    "session_mean_minutes": 30.213675121058074,
+    "session_std_minutes": 8.001357424634378,
+    "command_pool": [
+      "zip_archive",
+      "curl",
+      "whoami",
+      "rdp_connect"
+    ],
+    "command_weights": [
+      0.16120518707019352,
+      0.3533611065623623,
+      0.24534964163089454,
+      0.2400840647365496
+    ],
+    "activity_level": 0.9261829048573998
+  },
+  "USER_013": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Delhi"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_780",
+      "DEV_488",
+      "DEV_793"
+    ],
+    "device_weights": [
+      0.40524003540907766,
+      0.3539608587723614,
+      0.240799105818561
+    ],
+    "ip_subnet": "10.25.140",
+    "active_hour_start": 6,
+    "active_hour_end": 15,
+    "active_on_weekends": false,
+    "typical_auth_method": "mfa_push",
+    "resource_weights": {
+      "/sensor-data": 0.3897111399558075,
+      "/customer-data": 0.32764410768434366,
+      "/hr-portal": 0.2826447523598488
+    },
+    "session_mean_minutes": 21.739219979918648,
+    "session_std_minutes": 5.19477959635946,
+    "command_pool": [
+      "zip_archive",
+      "export_csv",
+      "scp",
+      "sudo_su",
+      "cd"
+    ],
+    "command_weights": [
+      0.14980780307806002,
+      0.22973542403432773,
+      0.2203575753137214,
+      0.10976713074661172,
+      0.29033206682727913
+    ],
+    "activity_level": 0.6244253877268263
+  },
+  "USER_014": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Mumbai"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_566"
+    ],
+    "device_weights": [
+      1.0
+    ],
+    "ip_subnet": "10.40.147",
+    "active_hour_start": 7,
+    "active_hour_end": 17,
+    "active_on_weekends": false,
+    "typical_auth_method": "mfa_otp",
+    "resource_weights": {
+      "/source-control-prod": 0.3075824015311625,
+      "/internal-api": 0.30268576168150607,
+      "/wiki": 0.2783314069950612,
+      "/telemetry": 0.1114004297922703
+    },
+    "session_mean_minutes": 19.000173166710866,
+    "session_std_minutes": 6.78785942498942,
+    "command_pool": [
+      "netstat",
+      "wget",
+      "scp",
+      "ps_aux"
+    ],
+    "command_weights": [
+      0.397331233371612,
+      0.2712408528631392,
+      0.1372037548262038,
+      0.19422415893904496
+    ],
+    "activity_level": 1.1311318858555888
+  },
+  "USER_015": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Singapore"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_950",
+      "DEV_661",
+      "DEV_556"
+    ],
+    "device_weights": [
+      0.3799927923536992,
+      0.34268232122277764,
+      0.27732488642352304
+    ],
+    "ip_subnet": "10.16.192",
+    "active_hour_start": 7,
+    "active_hour_end": 17,
+    "active_on_weekends": true,
+    "typical_auth_method": "mfa_otp",
+    "resource_weights": {
+      "/backup-vault": 0.3713495972188259,
+      "/telemetry": 0.36556297414642014,
+      "/wiki": 0.26308742863475404
+    },
+    "session_mean_minutes": 26.684304380008236,
+    "session_std_minutes": 8.61877463388798,
+    "command_pool": [
+      "sudo_su",
+      "rdp_connect",
+      "cat",
+      "export_csv",
+      "query_db",
+      "grep"
+    ],
+    "command_weights": [
+      0.17904818310644793,
+      0.12825724365388672,
+      0.14174698971336036,
+      0.18607075902505404,
+      0.16754253505706068,
+      0.1973342894441903
+    ],
+    "activity_level": 1.5460620335901005
+  },
+  "USER_016": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Singapore"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_588",
+      "DEV_106",
+      "DEV_460"
+    ],
+    "device_weights": [
+      0.4352523411772948,
+      0.2951347021729131,
+      0.269612956649792
+    ],
+    "ip_subnet": "10.26.137",
+    "active_hour_start": 7,
+    "active_hour_end": 16,
+    "active_on_weekends": false,
+    "typical_auth_method": "mfa_otp",
+    "resource_weights": {
+      "/sensor-data": 0.62562604190235,
+      "/internal-api": 0.37437395809765
+    },
+    "session_mean_minutes": 24.805374146439256,
+    "session_std_minutes": 8.567378247364163,
+    "command_pool": [
+      "scp",
+      "query_db",
+      "ssh",
+      "git_push",
+      "git_pull",
+      "ls",
+      "curl"
+    ],
+    "command_weights": [
+      0.16794476387943819,
+      0.1796473254392227,
+      0.08434873436399662,
+      0.1410726580912243,
+      0.21319657535816772,
+      0.1004413142596805,
+      0.11334862860827
+    ],
+    "activity_level": 0.9791262155641363
+  },
+  "USER_017": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Hyderabad",
+      "Chennai"
+    ],
+    "location_weights": [
+      0.5432880956394815,
+      0.4567119043605184
+    ],
+    "known_devices": [
+      "DEV_458"
+    ],
+    "device_weights": [
+      1.0
+    ],
+    "ip_subnet": "10.4.199",
+    "active_hour_start": 6,
+    "active_hour_end": 14,
+    "active_on_weekends": false,
+    "typical_auth_method": "sso",
+    "resource_weights": {
+      "/email": 0.5115172612604417,
+      "/hr-portal": 0.4884827387395583
+    },
+    "session_mean_minutes": 43.94162319102263,
+    "session_std_minutes": 4.648592497945639,
+    "command_pool": [
+      "curl",
+      "query_db",
+      "git_pull",
+      "ps_aux"
+    ],
+    "command_weights": [
+      0.18243797748383866,
+      0.2366563582147519,
+      0.3185205766094076,
+      0.2623850876920019
+    ],
+    "activity_level": 0.625678425497466
+  },
+  "USER_018": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Delhi"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_506",
+      "DEV_832",
+      "DEV_303"
+    ],
+    "device_weights": [
+      0.3999233222154884,
+      0.381250735356683,
+      0.2188259424278286
+    ],
+    "ip_subnet": "10.6.178",
+    "active_hour_start": 8,
+    "active_hour_end": 18,
+    "active_on_weekends": false,
+    "typical_auth_method": "mfa_push",
+    "resource_weights": {
+      "/email": 0.35108118997603505,
+      "/github": 0.3465793315780762,
+      "/hr-portal": 0.16023661946270465,
+      "/internal-api": 0.14210285898318403
+    },
+    "session_mean_minutes": 24.669137489433545,
+    "session_std_minutes": 5.472971014562145,
+    "command_pool": [
+      "export_csv",
+      "grep",
+      "netstat",
+      "scp",
+      "sudo_su",
+      "wget",
+      "whoami"
+    ],
+    "command_weights": [
+      0.08537946986560573,
+      0.08877751718398105,
+      0.13951664901551397,
+      0.1584127213269535,
+      0.1533411451640349,
+      0.19792826054676355,
+      0.1766442368971473
+    ],
+    "activity_level": 1.5346218786140002
+  },
+  "USER_019": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Mumbai"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_683",
+      "DEV_724",
+      "DEV_784"
+    ],
+    "device_weights": [
+      0.4657214381363118,
+      0.32088702178541695,
+      0.21339154007827127
+    ],
+    "ip_subnet": "10.11.124",
+    "active_hour_start": 7,
+    "active_hour_end": 16,
+    "active_on_weekends": true,
+    "typical_auth_method": "sso",
+    "resource_weights": {
+      "/hr-portal": 0.40413274184572345,
+      "/admin-console": 0.3039807067004488,
+      "/telemetry": 0.2918865514538277
+    },
+    "session_mean_minutes": 27.13203386033784,
+    "session_std_minutes": 5.459830983260543,
+    "command_pool": [
+      "cat",
+      "wget",
+      "netstat",
+      "zip_archive",
+      "git_pull"
+    ],
+    "command_weights": [
+      0.21493825910547817,
+      0.20270283303915412,
+      0.19460573001310572,
+      0.16651779872665412,
+      0.22123537911560795
+    ],
+    "activity_level": 1.2639600215968159
+  },
+  "USER_020": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Mumbai"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_535",
+      "DEV_863"
+    ],
+    "device_weights": [
+      0.5444140176701169,
+      0.45558598232988307
+    ],
+    "ip_subnet": "10.29.69",
+    "active_hour_start": 8,
+    "active_hour_end": 17,
+    "active_on_weekends": false,
+    "typical_auth_method": "mfa_push",
+    "resource_weights": {
+      "/internal-api": 0.6376172825282739,
+      "/github": 0.36238271747172607
+    },
+    "session_mean_minutes": 20.3832463105621,
+    "session_std_minutes": 4.084890203536383,
+    "command_pool": [
+      "curl",
+      "rdp_connect",
+      "export_csv",
+      "ssh",
+      "whoami"
+    ],
+    "command_weights": [
+      0.17249373070804924,
+      0.20139989392709953,
+      0.17371418557744298,
+      0.23872300897896614,
+      0.21366918080844202
+    ],
+    "activity_level": 1.1341350892676632
+  },
+  "USER_021": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Chennai"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_814",
+      "DEV_229"
+    ],
+    "device_weights": [
+      0.521094479570743,
+      0.47890552042925705
+    ],
+    "ip_subnet": "10.6.223",
+    "active_hour_start": 6,
+    "active_hour_end": 16,
+    "active_on_weekends": false,
+    "typical_auth_method": "sso",
+    "resource_weights": {
+      "/source-control-prod": 0.5561928380366323,
+      "/internal-api": 0.2489058076907423,
+      "/github": 0.19490135427262534
+    },
+    "session_mean_minutes": 38.270806190946516,
+    "session_std_minutes": 6.282268156879296,
+    "command_pool": [
+      "grep",
+      "cat",
+      "ps_aux",
+      "wget",
+      "cd",
+      "git_push",
+      "sudo_su"
+    ],
+    "command_weights": [
+      0.17180912719860972,
+      0.0894157494367006,
+      0.1910222487897271,
+      0.212283557137305,
+      0.07916194051680757,
+      0.10427947420178857,
+      0.15202790271906144
+    ],
+    "activity_level": 1.5085043776238038
+  },
+  "USER_022": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Singapore"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_412",
+      "DEV_682",
+      "DEV_735"
+    ],
+    "device_weights": [
+      0.5214738116994386,
+      0.2455144744987971,
+      0.2330117138017642
+    ],
+    "ip_subnet": "10.13.160",
+    "active_hour_start": 7,
+    "active_hour_end": 16,
+    "active_on_weekends": false,
+    "typical_auth_method": "sso",
+    "resource_weights": {
+      "/github": 0.3604582628136301,
+      "/wiki": 0.3099327864631103,
+      "/sensor-data": 0.17756548347962725,
+      "/hr-portal": 0.15204346724363238
+    },
+    "session_mean_minutes": 27.75416898312635,
+    "session_std_minutes": 7.267374272263472,
+    "command_pool": [
+      "cd",
+      "wget",
+      "git_push",
+      "whoami",
+      "ssh",
+      "query_db"
+    ],
+    "command_weights": [
+      0.2393835538464194,
+      0.09286930901244136,
+      0.12301929721447989,
+      0.12880437138954684,
+      0.2266803287910524,
+      0.18924313974606008
+    ],
+    "activity_level": 1.2476347234024807
+  },
+  "USER_023": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Singapore"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_269"
+    ],
+    "device_weights": [
+      1.0
+    ],
+    "ip_subnet": "10.38.191",
+    "active_hour_start": 8,
+    "active_hour_end": 17,
+    "active_on_weekends": false,
+    "typical_auth_method": "mfa_push",
+    "resource_weights": {
+      "/hr-portal": 0.542516656666972,
+      "/telemetry": 0.45748334333302815
+    },
+    "session_mean_minutes": 32.2874095380824,
+    "session_std_minutes": 8.578654025030232,
+    "command_pool": [
+      "query_db",
+      "cat",
+      "cd",
+      "rdp_connect",
+      "curl",
+      "whoami",
+      "scp"
+    ],
+    "command_weights": [
+      0.1720134937111715,
+      0.07572441135285381,
+      0.10956097362750786,
+      0.1837752887030361,
+      0.21480556967441955,
+      0.169248922234625,
+      0.0748713406963861
+    ],
+    "activity_level": 0.7751907279379726
+  },
+  "USER_024": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Hyderabad",
+      "Bengaluru"
+    ],
+    "location_weights": [
+      0.5817198073229515,
+      0.4182801926770485
+    ],
+    "known_devices": [
+      "DEV_193",
+      "DEV_581",
+      "DEV_456"
+    ],
+    "device_weights": [
+      0.37932688616251875,
+      0.3485260232613844,
+      0.272147090576097
+    ],
+    "ip_subnet": "10.10.84",
+    "active_hour_start": 9,
+    "active_hour_end": 19,
+    "active_on_weekends": false,
+    "typical_auth_method": "mfa_otp",
+    "resource_weights": {
+      "/sensor-data": 0.40951502826243497,
+      "/admin-console": 0.3106864654392385,
+      "/hr-portal": 0.2797985062983266
+    },
+    "session_mean_minutes": 33.76226226435027,
+    "session_std_minutes": 8.5599432163661,
+    "command_pool": [
+      "ps_aux",
+      "zip_archive",
+      "ls",
+      "sudo_su"
+    ],
+    "command_weights": [
+      0.35871779304828705,
+      0.24612509014109887,
+      0.13342705514187386,
+      0.26173006166874013
+    ],
+    "activity_level": 0.8035582383502738
+  },
+  "USER_025": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Hyderabad"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_224",
+      "DEV_129",
+      "DEV_745"
+    ],
+    "device_weights": [
+      0.4242535404739039,
+      0.3013304101481756,
+      0.2744160493779206
+    ],
+    "ip_subnet": "10.35.3",
+    "active_hour_start": 9,
+    "active_hour_end": 17,
+    "active_on_weekends": false,
+    "typical_auth_method": "mfa_push",
+    "resource_weights": {
+      "/finance-db": 0.6488218950510225,
+      "/email": 0.3511781049489776
+    },
+    "session_mean_minutes": 38.180253980310155,
+    "session_std_minutes": 9.126474279833246,
+    "command_pool": [
+      "zip_archive",
+      "git_pull",
+      "netstat",
+      "export_csv",
+      "wget",
+      "query_db"
+    ],
+    "command_weights": [
+      0.11095112485570194,
+      0.16170397877871384,
+      0.13403163589647774,
+      0.2228651940697703,
+      0.15460362896932914,
+      0.2158444374300071
+    ],
+    "activity_level": 0.9398752431142955
+  },
+  "USER_026": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Singapore"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_957",
+      "DEV_701"
+    ],
+    "device_weights": [
+      0.5155482371827196,
+      0.4844517628172805
+    ],
+    "ip_subnet": "10.9.114",
+    "active_hour_start": 9,
+    "active_hour_end": 18,
+    "active_on_weekends": false,
+    "typical_auth_method": "mfa_push",
+    "resource_weights": {
+      "/sensor-data": 0.41759686804669705,
+      "/internal-api": 0.3846557216112899,
+      "/github": 0.1977474103420131
+    },
+    "session_mean_minutes": 41.09100940086646,
+    "session_std_minutes": 9.24514224432585,
+    "command_pool": [
+      "wget",
+      "netstat",
+      "cd",
+      "scp",
+      "whoami",
+      "rdp_connect",
+      "zip_archive"
+    ],
+    "command_weights": [
+      0.17107727320472144,
+      0.10323297440661676,
+      0.18063615145802395,
+      0.1556476376126729,
+      0.13775279009196076,
+      0.07402420016645088,
+      0.17762897305955336
+    ],
+    "activity_level": 1.040306209770677
+  },
+  "USER_027": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Chennai",
+      "Pune"
+    ],
+    "location_weights": [
+      0.6205234245270669,
+      0.37947657547293306
+    ],
+    "known_devices": [
+      "DEV_176",
+      "DEV_580"
+    ],
+    "device_weights": [
+      0.6085143383256404,
+      0.3914856616743596
+    ],
+    "ip_subnet": "10.39.177",
+    "active_hour_start": 9,
+    "active_hour_end": 19,
+    "active_on_weekends": false,
+    "typical_auth_method": "password",
+    "resource_weights": {
+      "/sensor-data": 0.5549552211938016,
+      "/github": 0.4450447788061984
+    },
+    "session_mean_minutes": 16.379729060316382,
+    "session_std_minutes": 8.77686079097327,
+    "command_pool": [
+      "rdp_connect",
+      "cd",
+      "cat",
+      "grep",
+      "sudo_su",
+      "netstat",
+      "ssh"
+    ],
+    "command_weights": [
+      0.1973258357661271,
+      0.16264021284364905,
+      0.1193564620171932,
+      0.0729269149104161,
+      0.14700099904317004,
+      0.18004987274320536,
+      0.12069970267623913
+    ],
+    "activity_level": 0.8933677759652088
+  },
+  "USER_028": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Mumbai"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_679",
+      "DEV_798",
+      "DEV_911"
+    ],
+    "device_weights": [
+      0.43046302810615317,
+      0.2856096619502277,
+      0.28392730994361914
+    ],
+    "ip_subnet": "10.24.158",
+    "active_hour_start": 7,
+    "active_hour_end": 16,
+    "active_on_weekends": false,
+    "typical_auth_method": "password",
+    "resource_weights": {
+      "/internal-api": 0.3157014419065907,
+      "/customer-data": 0.2605110466995124,
+      "/telemetry": 0.21256949259201996,
+      "/github": 0.21121801880187682
+    },
+    "session_mean_minutes": 22.116171057827238,
+    "session_std_minutes": 7.431536154104434,
+    "command_pool": [
+      "rdp_connect",
+      "scp",
+      "cat",
+      "wget",
+      "zip_archive",
+      "git_push"
+    ],
+    "command_weights": [
+      0.11585670525663018,
+      0.22138890705366426,
+      0.17813075284045335,
+      0.14096021196506733,
+      0.11632913007099922,
+      0.2273342928131857
+    ],
+    "activity_level": 1.174811930178645
+  },
+  "USER_029": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Chennai"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_381",
+      "DEV_108",
+      "DEV_679"
+    ],
+    "device_weights": [
+      0.35526877596347217,
+      0.33176090369538536,
+      0.31297032034114247
+    ],
+    "ip_subnet": "10.38.190",
+    "active_hour_start": 9,
+    "active_hour_end": 18,
+    "active_on_weekends": false,
+    "typical_auth_method": "sso",
+    "resource_weights": {
+      "/telemetry": 0.5037185115168096,
+      "/wiki": 0.4962814884831905
+    },
+    "session_mean_minutes": 18.964793932403506,
+    "session_std_minutes": 7.236446553906527,
+    "command_pool": [
+      "grep",
+      "cd",
+      "git_push",
+      "ps_aux",
+      "wget"
+    ],
+    "command_weights": [
+      0.11817719953678404,
+      0.20298408897637357,
+      0.14326066003846336,
+      0.34235186793716865,
+      0.19322618351121043
+    ],
+    "activity_level": 1.5714895812113399
+  },
+  "USER_030": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Singapore"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_925",
+      "DEV_402",
+      "DEV_864"
+    ],
+    "device_weights": [
+      0.37100606739869874,
+      0.3550357450788282,
+      0.27395818752247314
+    ],
+    "ip_subnet": "10.4.36",
+    "active_hour_start": 7,
+    "active_hour_end": 17,
+    "active_on_weekends": false,
+    "typical_auth_method": "mfa_otp",
+    "resource_weights": {
+      "/sensor-data": 0.3181596549413441,
+      "/firmware-update": 0.2678676575482157,
+      "/hr-portal": 0.21341911403837976,
+      "/github": 0.2005535734720605
+    },
+    "session_mean_minutes": 42.28162915283676,
+    "session_std_minutes": 5.813141047175502,
+    "command_pool": [
+      "git_pull",
+      "ps_aux",
+      "whoami",
+      "cd",
+      "sudo_su",
+      "grep"
+    ],
+    "command_weights": [
+      0.14537160851216135,
+      0.16928718506359303,
+      0.22155714655010786,
+      0.12219890770851358,
+      0.16775849545923058,
+      0.17382665670639366
+    ],
+    "activity_level": 1.0082958557954127
+  },
+  "USER_031": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Chennai"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_604",
+      "DEV_218"
+    ],
+    "device_weights": [
+      0.6704358757295534,
+      0.32956412427044657
+    ],
+    "ip_subnet": "10.8.99",
+    "active_hour_start": 9,
+    "active_hour_end": 18,
+    "active_on_weekends": false,
+    "typical_auth_method": "sso",
+    "resource_weights": {
+      "/sensor-data": 0.2793355689399392,
+      "/hr-portal": 0.26834044419130204,
+      "/telemetry": 0.23033609648452702,
+      "/wiki": 0.2219878903842317
+    },
+    "session_mean_minutes": 44.0462062780916,
+    "session_std_minutes": 9.694064729572826,
+    "command_pool": [
+      "cd",
+      "whoami",
+      "curl",
+      "wget",
+      "query_db",
+      "grep"
+    ],
+    "command_weights": [
+      0.21074077839138233,
+      0.08664616349455316,
+      0.18287719250806286,
+      0.15970029820051837,
+      0.23082849011609208,
+      0.1292070772893912
+    ],
+    "activity_level": 1.4241910819315713
+  },
+  "USER_032": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Pune"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_151"
+    ],
+    "device_weights": [
+      1.0
+    ],
+    "ip_subnet": "10.15.253",
+    "active_hour_start": 7,
+    "active_hour_end": 17,
+    "active_on_weekends": false,
+    "typical_auth_method": "mfa_push",
+    "resource_weights": {
+      "/internal-api": 0.6682488064569109,
+      "/hr-portal": 0.33175119354308924
+    },
+    "session_mean_minutes": 15.473432505334808,
+    "session_std_minutes": 5.59220504994984,
+    "command_pool": [
+      "ssh",
+      "ls",
+      "git_pull",
+      "netstat",
+      "cat",
+      "query_db"
+    ],
+    "command_weights": [
+      0.18018653464070017,
+      0.22822794426109563,
+      0.10015623633125424,
+      0.2408631315569657,
+      0.10422515959659892,
+      0.14634099361338526
+    ],
+    "activity_level": 0.7267585437127803
+  },
+  "USER_033": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Delhi",
+      "Chennai"
+    ],
+    "location_weights": [
+      0.5418104797903294,
+      0.45818952020967063
+    ],
+    "known_devices": [
+      "DEV_625",
+      "DEV_707"
+    ],
+    "device_weights": [
+      0.6014231320162969,
+      0.39857686798370306
+    ],
+    "ip_subnet": "10.39.11",
+    "active_hour_start": 8,
+    "active_hour_end": 17,
+    "active_on_weekends": false,
+    "typical_auth_method": "mfa_push",
+    "resource_weights": {
+      "/email": 0.3454636770695472,
+      "/internal-api": 0.2877423657311325,
+      "/sensor-data": 0.23719085625766148,
+      "/telemetry": 0.12960310094165875
+    },
+    "session_mean_minutes": 28.61146252726415,
+    "session_std_minutes": 7.632560749211877,
+    "command_pool": [
+      "sudo_su",
+      "ssh",
+      "cat",
+      "export_csv"
+    ],
+    "command_weights": [
+      0.20125957248152976,
+      0.30368202277432244,
+      0.27944797777142477,
+      0.21561042697272295
+    ],
+    "activity_level": 0.699178461679042
+  },
+  "USER_034": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Singapore"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_540",
+      "DEV_562"
+    ],
+    "device_weights": [
+      0.5899875958148719,
+      0.4100124041851281
+    ],
+    "ip_subnet": "10.29.102",
+    "active_hour_start": 9,
+    "active_hour_end": 19,
+    "active_on_weekends": false,
+    "typical_auth_method": "mfa_push",
+    "resource_weights": {
+      "/sensor-data": 0.5766672569309481,
+      "/github": 0.42333274306905194
+    },
+    "session_mean_minutes": 35.10039794196888,
+    "session_std_minutes": 6.464851797532949,
+    "command_pool": [
+      "export_csv",
+      "cat",
+      "zip_archive",
+      "netstat",
+      "cd"
+    ],
+    "command_weights": [
+      0.11753378150081964,
+      0.11828482666312848,
+      0.26294500905530743,
+      0.2793819603618608,
+      0.22185442241888365
+    ],
+    "activity_level": 1.4736073722343184
+  },
+  "USER_035": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Singapore",
+      "Pune"
+    ],
+    "location_weights": [
+      0.5504864697452104,
+      0.4495135302547895
+    ],
+    "known_devices": [
+      "DEV_460",
+      "DEV_206"
+    ],
+    "device_weights": [
+      0.5859654705745494,
+      0.4140345294254506
+    ],
+    "ip_subnet": "10.30.57",
+    "active_hour_start": 6,
+    "active_hour_end": 15,
+    "active_on_weekends": false,
+    "typical_auth_method": "mfa_otp",
+    "resource_weights": {
+      "/wiki": 0.3234230308053414,
+      "/sensor-data": 0.26759033278544253,
+      "/github": 0.2319346055765349,
+      "/hr-portal": 0.17705203083268115
+    },
+    "session_mean_minutes": 17.087562637450095,
+    "session_std_minutes": 8.445814354710519,
+    "command_pool": [
+      "git_pull",
+      "ls",
+      "scp",
+      "ssh"
+    ],
+    "command_weights": [
+      0.3682640517533553,
+      0.24009772717840705,
+      0.25013710728212335,
+      0.14150111378611427
+    ],
+    "activity_level": 1.571810318758019
+  },
+  "USER_036": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Pune"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_529",
+      "DEV_564",
+      "DEV_449"
+    ],
+    "device_weights": [
+      0.3547787926616985,
+      0.350216113631307,
+      0.2950050937069945
+    ],
+    "ip_subnet": "10.36.152",
+    "active_hour_start": 6,
+    "active_hour_end": 14,
+    "active_on_weekends": false,
+    "typical_auth_method": "password",
+    "resource_weights": {
+      "/email": 0.6308154843413376,
+      "/telemetry": 0.36918451565866245
+    },
+    "session_mean_minutes": 15.230612576996487,
+    "session_std_minutes": 5.808516172110621,
+    "command_pool": [
+      "export_csv",
+      "query_db",
+      "netstat",
+      "ssh",
+      "grep",
+      "ps_aux",
+      "git_pull"
+    ],
+    "command_weights": [
+      0.09507844750385638,
+      0.1504887385732313,
+      0.12477861573530521,
+      0.19406244985812524,
+      0.1604313563249499,
+      0.1920721957832976,
+      0.0830881962212344
+    ],
+    "activity_level": 0.8112339792203123
+  },
+  "USER_037": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Singapore"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_222",
+      "DEV_107"
+    ],
+    "device_weights": [
+      0.5147543765206962,
+      0.4852456234793037
+    ],
+    "ip_subnet": "10.8.97",
+    "active_hour_start": 7,
+    "active_hour_end": 17,
+    "active_on_weekends": false,
+    "typical_auth_method": "mfa_otp",
+    "resource_weights": {
+      "/telemetry": 0.29599185965158026,
+      "/email": 0.28815006646832864,
+      "/internal-api": 0.24711325767285197,
+      "/sensor-data": 0.1687448162072391
+    },
+    "session_mean_minutes": 30.718876290018947,
+    "session_std_minutes": 6.374600181155998,
+    "command_pool": [
+      "ps_aux",
+      "netstat",
+      "git_push",
+      "cd",
+      "curl",
+      "ls",
+      "scp"
+    ],
+    "command_weights": [
+      0.09725969706979527,
+      0.22291383075174587,
+      0.14394602149729702,
+      0.18112243719103407,
+      0.1280324767306009,
+      0.14015811187388028,
+      0.0865674248856466
+    ],
+    "activity_level": 0.9102745618358613
+  },
+  "USER_038": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Bengaluru"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_178",
+      "DEV_622"
+    ],
+    "device_weights": [
+      0.5205472877718473,
+      0.47945271222815267
+    ],
+    "ip_subnet": "10.12.231",
+    "active_hour_start": 8,
+    "active_hour_end": 17,
+    "active_on_weekends": false,
+    "typical_auth_method": "mfa_push",
+    "resource_weights": {
+      "/github": 0.38868167942693754,
+      "/wiki": 0.2240150606469001,
+      "/email": 0.19702708014732706,
+      "/sensor-data": 0.1902761797788353
+    },
+    "session_mean_minutes": 40.92740624494249,
+    "session_std_minutes": 7.763304441398631,
+    "command_pool": [
+      "scp",
+      "export_csv",
+      "query_db",
+      "ps_aux"
+    ],
+    "command_weights": [
+      0.224469753421089,
+      0.22802862642827812,
+      0.2510263546912154,
+      0.2964752654594175
+    ],
+    "activity_level": 0.7509574013930769
+  },
+  "USER_039": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Mumbai"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_915",
+      "DEV_381"
+    ],
+    "device_weights": [
+      0.5525932330220463,
+      0.4474067669779537
+    ],
+    "ip_subnet": "10.4.79",
+    "active_hour_start": 9,
+    "active_hour_end": 18,
+    "active_on_weekends": false,
+    "typical_auth_method": "sso",
+    "resource_weights": {
+      "/telemetry": 0.5999474994908128,
+      "/sensor-data": 0.40005250050918717
+    },
+    "session_mean_minutes": 24.645802886412852,
+    "session_std_minutes": 6.8537741676584165,
+    "command_pool": [
+      "zip_archive",
+      "ps_aux",
+      "query_db",
+      "git_push"
+    ],
+    "command_weights": [
+      0.22307785497708135,
+      0.2769815748672573,
+      0.3005989719289722,
+      0.19934159822668915
+    ],
+    "activity_level": 0.7508610766956385
+  },
+  "USER_040": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Mumbai"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_831",
+      "DEV_186"
+    ],
+    "device_weights": [
+      0.5825664740714085,
+      0.41743352592859156
+    ],
+    "ip_subnet": "10.15.181",
+    "active_hour_start": 9,
+    "active_hour_end": 18,
+    "active_on_weekends": false,
+    "typical_auth_method": "sso",
+    "resource_weights": {
+      "/github": 0.33348841611318325,
+      "/backup-vault": 0.3069966865289728,
+      "/sensor-data": 0.22619646677203661,
+      "/telemetry": 0.13331843058580736
+    },
+    "session_mean_minutes": 42.502393651713604,
+    "session_std_minutes": 5.861390425310873,
+    "command_pool": [
+      "cat",
+      "sudo_su",
+      "grep",
+      "git_pull",
+      "zip_archive",
+      "curl"
+    ],
+    "command_weights": [
+      0.11225931311544693,
+      0.18149801764182813,
+      0.17091822959863834,
+      0.21026052127753161,
+      0.20505280726673336,
+      0.12001111109982153
+    ],
+    "activity_level": 1.2560547180360553
+  },
+  "USER_041": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Bengaluru",
+      "Delhi"
+    ],
+    "location_weights": [
+      0.6117063102927582,
+      0.3882936897072417
+    ],
+    "known_devices": [
+      "DEV_758",
+      "DEV_910",
+      "DEV_436"
+    ],
+    "device_weights": [
+      0.3468310318049759,
+      0.343173045388006,
+      0.3099959228070181
+    ],
+    "ip_subnet": "10.33.23",
+    "active_hour_start": 9,
+    "active_hour_end": 19,
+    "active_on_weekends": true,
+    "typical_auth_method": "mfa_push",
+    "resource_weights": {
+      "/telemetry": 0.41250664601989745,
+      "/github": 0.3571925326768963,
+      "/wiki": 0.23030082130320623
+    },
+    "session_mean_minutes": 41.29178317628225,
+    "session_std_minutes": 7.708188792961048,
+    "command_pool": [
+      "wget",
+      "ssh",
+      "zip_archive",
+      "cd",
+      "export_csv"
+    ],
+    "command_weights": [
+      0.22821375214832104,
+      0.09496278421319956,
+      0.21502760836050752,
+      0.22654498374471216,
+      0.23525087153325971
+    ],
+    "activity_level": 1.1972464410716284
+  },
+  "USER_042": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Bengaluru"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_838",
+      "DEV_548"
+    ],
+    "device_weights": [
+      0.5920583331310248,
+      0.4079416668689751
+    ],
+    "ip_subnet": "10.15.248",
+    "active_hour_start": 9,
+    "active_hour_end": 19,
+    "active_on_weekends": false,
+    "typical_auth_method": "mfa_push",
+    "resource_weights": {
+      "/firmware-update": 0.4257197155954794,
+      "/wiki": 0.3703808706315766,
+      "/hr-portal": 0.20389941377294407
+    },
+    "session_mean_minutes": 16.565394097830136,
+    "session_std_minutes": 6.88354393277095,
+    "command_pool": [
+      "whoami",
+      "query_db",
+      "zip_archive",
+      "ps_aux",
+      "ssh"
+    ],
+    "command_weights": [
+      0.2870142817330652,
+      0.22155343344795614,
+      0.20151543127812774,
+      0.14048211478153938,
+      0.14943473875931154
+    ],
+    "activity_level": 0.9712121066044326
+  },
+  "USER_043": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Pune"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_391"
+    ],
+    "device_weights": [
+      1.0
+    ],
+    "ip_subnet": "10.10.69",
+    "active_hour_start": 9,
+    "active_hour_end": 19,
+    "active_on_weekends": false,
+    "typical_auth_method": "password",
+    "resource_weights": {
+      "/wiki": 0.5132748012625763,
+      "/source-control-prod": 0.4867251987374237
+    },
+    "session_mean_minutes": 40.17528862834817,
+    "session_std_minutes": 7.89976410576509,
+    "command_pool": [
+      "netstat",
+      "cd",
+      "ps_aux",
+      "git_pull"
+    ],
+    "command_weights": [
+      0.2886230231463552,
+      0.2930122977059008,
+      0.18348006213805754,
+      0.2348846170096865
+    ],
+    "activity_level": 1.391380637482176
+  },
+  "USER_044": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Chennai"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_812",
+      "DEV_951",
+      "DEV_242"
+    ],
+    "device_weights": [
+      0.37090729123126953,
+      0.3335714301715733,
+      0.29552127859715716
+    ],
+    "ip_subnet": "10.5.4",
+    "active_hour_start": 8,
+    "active_hour_end": 16,
+    "active_on_weekends": false,
+    "typical_auth_method": "password",
+    "resource_weights": {
+      "/sensor-data": 0.6439190680111759,
+      "/email": 0.356080931988824
+    },
+    "session_mean_minutes": 33.95864826039427,
+    "session_std_minutes": 7.450284745183802,
+    "command_pool": [
+      "cd",
+      "wget",
+      "netstat",
+      "sudo_su"
+    ],
+    "command_weights": [
+      0.30705285920251,
+      0.2224610877775891,
+      0.1354906406229098,
+      0.33499541239699115
+    ],
+    "activity_level": 1.3185443277923525
+  },
+  "USER_045": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Mumbai"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_346",
+      "DEV_684"
+    ],
+    "device_weights": [
+      0.5513205808825319,
+      0.4486794191174681
+    ],
+    "ip_subnet": "10.5.134",
+    "active_hour_start": 8,
+    "active_hour_end": 16,
+    "active_on_weekends": false,
+    "typical_auth_method": "sso",
+    "resource_weights": {
+      "/email": 0.39146196341554396,
+      "/internal-api": 0.29554990207027665,
+      "/sensor-data": 0.18945926948464864,
+      "/backup-vault": 0.12352886502953074
+    },
+    "session_mean_minutes": 39.91150970290808,
+    "session_std_minutes": 8.108095398453901,
+    "command_pool": [
+      "whoami",
+      "wget",
+      "grep",
+      "ps_aux"
+    ],
+    "command_weights": [
+      0.28555966560865853,
+      0.3349511652782685,
+      0.1588155584104729,
+      0.2206736107026001
+    ],
+    "activity_level": 1.5808191857888492
+  },
+  "USER_046": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Pune",
+      "Bengaluru"
+    ],
+    "location_weights": [
+      0.6301742170262347,
+      0.3698257829737652
+    ],
+    "known_devices": [
+      "DEV_137",
+      "DEV_400",
+      "DEV_306"
+    ],
+    "device_weights": [
+      0.37902297538497914,
+      0.31090430712955885,
+      0.31007271748546195
+    ],
+    "ip_subnet": "10.19.131",
+    "active_hour_start": 9,
+    "active_hour_end": 19,
+    "active_on_weekends": false,
+    "typical_auth_method": "mfa_push",
+    "resource_weights": {
+      "/email": 0.4625554649632287,
+      "/sensor-data": 0.30044196128677797,
+      "/telemetry": 0.23700257374999342
+    },
+    "session_mean_minutes": 39.03444262205321,
+    "session_std_minutes": 8.362487946055815,
+    "command_pool": [
+      "git_pull",
+      "grep",
+      "whoami",
+      "curl",
+      "query_db",
+      "export_csv"
+    ],
+    "command_weights": [
+      0.15636982481687825,
+      0.2494276607151077,
+      0.1382351985571163,
+      0.11082266648768847,
+      0.20181117225124923,
+      0.14333347717196002
+    ],
+    "activity_level": 0.6789270060554679
+  },
+  "USER_047": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Delhi"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_181"
+    ],
+    "device_weights": [
+      1.0
+    ],
+    "ip_subnet": "10.18.78",
+    "active_hour_start": 9,
+    "active_hour_end": 19,
+    "active_on_weekends": false,
+    "typical_auth_method": "sso",
+    "resource_weights": {
+      "/github": 0.3035726449704972,
+      "/telemetry": 0.2617140096763366,
+      "/internal-api": 0.23635255689189116,
+      "/source-control-prod": 0.198360788461275
+    },
+    "session_mean_minutes": 38.35546120520596,
+    "session_std_minutes": 6.197970838642892,
+    "command_pool": [
+      "git_pull",
+      "cd",
+      "cat",
+      "sudo_su",
+      "query_db",
+      "curl",
+      "scp"
+    ],
+    "command_weights": [
+      0.14669749719134487,
+      0.1835895991050409,
+      0.09168940201504608,
+      0.07161692074044936,
+      0.19897683605192656,
+      0.1724027104259459,
+      0.13502703447024628
+    ],
+    "activity_level": 0.9828544016887777
+  },
+  "USER_048": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Delhi"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_479",
+      "DEV_480",
+      "DEV_554"
+    ],
+    "device_weights": [
+      0.3697824033048406,
+      0.32085847974701515,
+      0.3093591169481442
+    ],
+    "ip_subnet": "10.25.80",
+    "active_hour_start": 8,
+    "active_hour_end": 16,
+    "active_on_weekends": false,
+    "typical_auth_method": "password",
+    "resource_weights": {
+      "/github": 0.5864778737832365,
+      "/internal-api": 0.4135221262167636
+    },
+    "session_mean_minutes": 28.561280557361922,
+    "session_std_minutes": 9.392074184717382,
+    "command_pool": [
+      "git_pull",
+      "rdp_connect",
+      "query_db",
+      "grep"
+    ],
+    "command_weights": [
+      0.3235619195745124,
+      0.16216244740254437,
+      0.30542207100850627,
+      0.20885356201443697
+    ],
+    "activity_level": 1.045111192742455
+  },
+  "USER_049": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Singapore"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_783",
+      "DEV_455"
+    ],
+    "device_weights": [
+      0.5307657691655061,
+      0.46923423083449395
+    ],
+    "ip_subnet": "10.18.228",
+    "active_hour_start": 8,
+    "active_hour_end": 16,
+    "active_on_weekends": false,
+    "typical_auth_method": "password",
+    "resource_weights": {
+      "/github": 0.3576768278572885,
+      "/sensor-data": 0.30882958122857695,
+      "/firmware-update": 0.16832740140360017,
+      "/hr-portal": 0.1651661895105343
+    },
+    "session_mean_minutes": 18.75980346777582,
+    "session_std_minutes": 5.902166022762891,
+    "command_pool": [
+      "ls",
+      "whoami",
+      "zip_archive",
+      "wget",
+      "ps_aux",
+      "git_pull",
+      "cat"
+    ],
+    "command_weights": [
+      0.14820573634522488,
+      0.07332332718355959,
+      0.10509689830957661,
+      0.20341993057029742,
+      0.16343499937996633,
+      0.13592038994621436,
+      0.1705987182651609
+    ],
+    "activity_level": 0.6741650197653062
+  },
+  "USER_050": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Pune",
+      "Delhi"
+    ],
+    "location_weights": [
+      0.5827695144486633,
+      0.41723048555133674
+    ],
+    "known_devices": [
+      "DEV_886",
+      "DEV_232"
+    ],
+    "device_weights": [
+      0.5893078107630414,
+      0.41069218923695855
+    ],
+    "ip_subnet": "10.3.212",
+    "active_hour_start": 6,
+    "active_hour_end": 16,
+    "active_on_weekends": false,
+    "typical_auth_method": "sso",
+    "resource_weights": {
+      "/github": 0.6023408146429668,
+      "/wiki": 0.39765918535703304
+    },
+    "session_mean_minutes": 20.13601869167377,
+    "session_std_minutes": 7.746875124601994,
+    "command_pool": [
+      "zip_archive",
+      "git_push",
+      "cat",
+      "ssh",
+      "grep",
+      "sudo_su"
+    ],
+    "command_weights": [
+      0.2397679412981568,
+      0.12171235626785774,
+      0.18240581162504435,
+      0.18057168698236803,
+      0.09037240401018361,
+      0.1851697998163894
+    ],
+    "activity_level": 1.502000893690727
+  },
+  "USER_051": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Singapore"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_945"
+    ],
+    "device_weights": [
+      1.0
+    ],
+    "ip_subnet": "10.5.11",
+    "active_hour_start": 8,
+    "active_hour_end": 18,
+    "active_on_weekends": false,
+    "typical_auth_method": "sso",
+    "resource_weights": {
+      "/sensor-data": 0.5353412655312271,
+      "/hr-portal": 0.46465873446877287
+    },
+    "session_mean_minutes": 24.377474977407992,
+    "session_std_minutes": 8.310177310674625,
+    "command_pool": [
+      "git_push",
+      "export_csv",
+      "wget",
+      "ps_aux",
+      "query_db",
+      "sudo_su"
+    ],
+    "command_weights": [
+      0.16182484944255815,
+      0.17102477832643206,
+      0.21660009793473528,
+      0.11374020746596307,
+      0.16367237681707178,
+      0.1731376900132397
+    ],
+    "activity_level": 1.3341997548045468
+  },
+  "USER_052": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Mumbai"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_627",
+      "DEV_675"
+    ],
+    "device_weights": [
+      0.5403133126791967,
+      0.45968668732080326
+    ],
+    "ip_subnet": "10.7.68",
+    "active_hour_start": 9,
+    "active_hour_end": 17,
+    "active_on_weekends": false,
+    "typical_auth_method": "mfa_otp",
+    "resource_weights": {
+      "/email": 0.5152288030483986,
+      "/github": 0.4847711969516014
+    },
+    "session_mean_minutes": 44.00059891657426,
+    "session_std_minutes": 5.290866535157447,
+    "command_pool": [
+      "wget",
+      "scp",
+      "sudo_su",
+      "query_db",
+      "git_push",
+      "whoami",
+      "zip_archive"
+    ],
+    "command_weights": [
+      0.09849643328574212,
+      0.09363987476671828,
+      0.22689349466784636,
+      0.14261253655464476,
+      0.20827526335047414,
+      0.1474792036065083,
+      0.08260319376806609
+    ],
+    "activity_level": 0.9528950888563553
+  },
+  "USER_053": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Hyderabad"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_392",
+      "DEV_649",
+      "DEV_108"
+    ],
+    "device_weights": [
+      0.37233543968761645,
+      0.36385499460662457,
+      0.26380956570575886
+    ],
+    "ip_subnet": "10.23.195",
+    "active_hour_start": 9,
+    "active_hour_end": 18,
+    "active_on_weekends": false,
+    "typical_auth_method": "mfa_push",
+    "resource_weights": {
+      "/email": 0.5559345874988696,
+      "/hr-portal": 0.4440654125011303
+    },
+    "session_mean_minutes": 37.648955168783814,
+    "session_std_minutes": 5.1943472893147,
+    "command_pool": [
+      "cat",
+      "ps_aux",
+      "query_db",
+      "zip_archive",
+      "git_pull",
+      "ssh"
+    ],
+    "command_weights": [
+      0.239767948165131,
+      0.20112809374780194,
+      0.19879550377502125,
+      0.10655465962031327,
+      0.10043906732826198,
+      0.15331472736347054
+    ],
+    "activity_level": 1.109122516225182
+  },
+  "USER_054": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Chennai"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_923",
+      "DEV_585"
+    ],
+    "device_weights": [
+      0.5925236821577682,
+      0.40747631784223176
+    ],
+    "ip_subnet": "10.32.35",
+    "active_hour_start": 8,
+    "active_hour_end": 18,
+    "active_on_weekends": false,
+    "typical_auth_method": "sso",
+    "resource_weights": {
+      "/sensor-data": 0.39363062265267423,
+      "/hr-portal": 0.3165634665649708,
+      "/telemetry": 0.28980591078235496
+    },
+    "session_mean_minutes": 36.642003368889206,
+    "session_std_minutes": 7.50113966228584,
+    "command_pool": [
+      "git_push",
+      "export_csv",
+      "ls",
+      "scp",
+      "query_db",
+      "sudo_su",
+      "cd"
+    ],
+    "command_weights": [
+      0.19360510809731174,
+      0.13914489424567394,
+      0.16843064504643115,
+      0.15861195199237726,
+      0.15348744818439558,
+      0.0625733433289039,
+      0.12414660910490638
+    ],
+    "activity_level": 0.7705120617466593
+  },
+  "USER_055": {
+    "entity_type": "human_user",
+    "home_locations": [
+      "Bengaluru",
+      "Pune"
+    ],
+    "location_weights": [
+      0.5586858043729188,
+      0.44131419562708124
+    ],
+    "known_devices": [
+      "DEV_295"
+    ],
+    "device_weights": [
+      1.0
+    ],
+    "ip_subnet": "10.20.107",
+    "active_hour_start": 7,
+    "active_hour_end": 16,
+    "active_on_weekends": false,
+    "typical_auth_method": "mfa_push",
+    "resource_weights": {
+      "/sensor-data": 0.36936607379345493,
+      "/hr-portal": 0.3304876745647908,
+      "/customer-data": 0.1608302432509108,
+      "/internal-api": 0.13931600839084357
+    },
+    "session_mean_minutes": 33.30229740236255,
+    "session_std_minutes": 5.153585014820281,
+    "command_pool": [
+      "rdp_connect",
+      "sudo_su",
+      "export_csv",
+      "git_pull",
+      "curl"
+    ],
+    "command_weights": [
+      0.17513712750425395,
+      0.141972288787423,
+      0.3163114297309895,
+      0.1818787140215331,
+      0.18470043995580043
+    ],
+    "activity_level": 0.8465191355273604
+  },
+  "SVC_056": {
+    "entity_type": "service_account",
+    "home_locations": [
+      "Delhi"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_404"
+    ],
+    "device_weights": [
+      1.0
+    ],
+    "ip_subnet": "10.19.57",
+    "active_hour_start": 0,
+    "active_hour_end": 23,
+    "active_on_weekends": true,
+    "typical_auth_method": "api_key",
+    "resource_weights": {
+      "/sensor-data": 0.5316485453639429,
+      "/internal-api": 0.46835145463605704
+    },
+    "session_mean_minutes": 2.151157501991811,
+    "session_std_minutes": 0.6587814430989161,
+    "command_pool": [
+      "export_csv",
+      "whoami",
+      "git_pull"
+    ],
+    "command_weights": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "activity_level": 1.0172763507953113
+  },
+  "SVC_057": {
+    "entity_type": "service_account",
+    "home_locations": [
+      "Mumbai"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_891"
+    ],
+    "device_weights": [
+      1.0
+    ],
+    "ip_subnet": "10.22.244",
+    "active_hour_start": 0,
+    "active_hour_end": 23,
+    "active_on_weekends": true,
+    "typical_auth_method": "api_key",
+    "resource_weights": {
+      "/hr-portal": 1.0
+    },
+    "session_mean_minutes": 3.6238882022036303,
+    "session_std_minutes": 0.7978707997744039,
+    "command_pool": [
+      "cat",
+      "whoami",
+      "query_db"
+    ],
+    "command_weights": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "activity_level": 0.885594723230803
+  },
+  "SVC_058": {
+    "entity_type": "service_account",
+    "home_locations": [
+      "Singapore"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_675"
+    ],
+    "device_weights": [
+      1.0
+    ],
+    "ip_subnet": "10.34.69",
+    "active_hour_start": 0,
+    "active_hour_end": 23,
+    "active_on_weekends": true,
+    "typical_auth_method": "api_key",
+    "resource_weights": {
+      "/github": 0.5045037420750088,
+      "/wiki": 0.4954962579249912
+    },
+    "session_mean_minutes": 3.5517782936345506,
+    "session_std_minutes": 0.24199288547157025,
+    "command_pool": [
+      "wget",
+      "cd",
+      "rdp_connect"
+    ],
+    "command_weights": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "activity_level": 0.9653205464193034
+  },
+  "SVC_059": {
+    "entity_type": "service_account",
+    "home_locations": [
+      "Pune"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_797"
+    ],
+    "device_weights": [
+      1.0
+    ],
+    "ip_subnet": "10.30.25",
+    "active_hour_start": 0,
+    "active_hour_end": 23,
+    "active_on_weekends": true,
+    "typical_auth_method": "api_key",
+    "resource_weights": {
+      "/email": 1.0
+    },
+    "session_mean_minutes": 2.909794081763586,
+    "session_std_minutes": 0.35956477973408135,
+    "command_pool": [
+      "scp",
+      "netstat",
+      "export_csv"
+    ],
+    "command_weights": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "activity_level": 1.1855656155563743
+  },
+  "SVC_060": {
+    "entity_type": "service_account",
+    "home_locations": [
+      "Hyderabad"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_160"
+    ],
+    "device_weights": [
+      1.0
+    ],
+    "ip_subnet": "10.18.165",
+    "active_hour_start": 0,
+    "active_hour_end": 23,
+    "active_on_weekends": true,
+    "typical_auth_method": "api_key",
+    "resource_weights": {
+      "/telemetry": 1.0
+    },
+    "session_mean_minutes": 2.6715399289800215,
+    "session_std_minutes": 0.8700839112746042,
+    "command_pool": [
+      "rdp_connect",
+      "cd",
+      "scp"
+    ],
+    "command_weights": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "activity_level": 1.17356904423128
+  },
+  "SVC_061": {
+    "entity_type": "service_account",
+    "home_locations": [
+      "Chennai"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_607"
+    ],
+    "device_weights": [
+      1.0
+    ],
+    "ip_subnet": "10.25.201",
+    "active_hour_start": 0,
+    "active_hour_end": 23,
+    "active_on_weekends": true,
+    "typical_auth_method": "api_key",
+    "resource_weights": {
+      "/sensor-data": 1.0
+    },
+    "session_mean_minutes": 2.193568842648323,
+    "session_std_minutes": 0.6822263724046986,
+    "command_pool": [
+      "git_push",
+      "cd",
+      "ls"
+    ],
+    "command_weights": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "activity_level": 1.1713819384068067
+  },
+  "SVC_062": {
+    "entity_type": "service_account",
+    "home_locations": [
+      "Hyderabad"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_756"
+    ],
+    "device_weights": [
+      1.0
+    ],
+    "ip_subnet": "10.18.116",
+    "active_hour_start": 0,
+    "active_hour_end": 23,
+    "active_on_weekends": true,
+    "typical_auth_method": "api_key",
+    "resource_weights": {
+      "/github": 0.5517149059825518,
+      "/source-control-prod": 0.4482850940174481
+    },
+    "session_mean_minutes": 3.9244769352350968,
+    "session_std_minutes": 0.7186282709673935,
+    "command_pool": [
+      "grep",
+      "sudo_su",
+      "scp"
+    ],
+    "command_weights": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "activity_level": 1.087439269382355
+  },
+  "SVC_063": {
+    "entity_type": "service_account",
+    "home_locations": [
+      "Chennai"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "DEV_402"
+    ],
+    "device_weights": [
+      1.0
+    ],
+    "ip_subnet": "10.21.202",
+    "active_hour_start": 0,
+    "active_hour_end": 23,
+    "active_on_weekends": true,
+    "typical_auth_method": "api_key",
+    "resource_weights": {
+      "/github": 1.0
+    },
+    "session_mean_minutes": 1.3469510793934236,
+    "session_std_minutes": 0.7354046827279634,
+    "command_pool": [
+      "ps_aux",
+      "netstat",
+      "sudo_su"
+    ],
+    "command_weights": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "activity_level": 0.873912480418936
+  },
+  "EDGE_064": {
+    "entity_type": "edge_device",
+    "home_locations": [
+      "Bengaluru"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "SecureRTOS-3.4/A5:7F:03:85:C4:78"
+    ],
+    "device_weights": [
+      1.0
+    ],
+    "ip_subnet": "192.168.122",
+    "active_hour_start": 0,
+    "active_hour_end": 23,
+    "active_on_weekends": true,
+    "typical_auth_method": "certificate",
+    "resource_weights": {
+      "/sensor-data": 0.3591432593123222,
+      "/firmware-update": 0.32484681093661616,
+      "/telemetry": 0.3160099297510616
+    },
+    "session_mean_minutes": 0.3840838052021719,
+    "session_std_minutes": 0.05837916290778781,
+    "command_pool": [
+      "grep",
+      "query_db"
+    ],
+    "command_weights": [
+      0.6,
+      0.4
+    ],
+    "activity_level": 1.7025204712383897
+  },
+  "EDGE_065": {
+    "entity_type": "edge_device",
+    "home_locations": [
+      "Pune"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "EdgeOS-2.1/9F:3C:97:BC:71:70"
+    ],
+    "device_weights": [
+      1.0
+    ],
+    "ip_subnet": "192.168.197",
+    "active_hour_start": 0,
+    "active_hour_end": 23,
+    "active_on_weekends": true,
+    "typical_auth_method": "certificate",
+    "resource_weights": {
+      "/telemetry": 0.3538805766363418,
+      "/sensor-data": 0.3310608657042243,
+      "/firmware-update": 0.3150585576594338
+    },
+    "session_mean_minutes": 0.6571157719826644,
+    "session_std_minutes": 0.07762393439435786,
+    "command_pool": [
+      "rdp_connect",
+      "curl"
+    ],
+    "command_weights": [
+      0.6,
+      0.4
+    ],
+    "activity_level": 1.795814465531223
+  },
+  "EDGE_066": {
+    "entity_type": "edge_device",
+    "home_locations": [
+      "Singapore"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "EdgeOS-2.1/E4:B9:27:39:1F:67"
+    ],
+    "device_weights": [
+      1.0
+    ],
+    "ip_subnet": "192.168.20",
+    "active_hour_start": 0,
+    "active_hour_end": 23,
+    "active_on_weekends": true,
+    "typical_auth_method": "certificate",
+    "resource_weights": {
+      "/sensor-data": 0.5269374074888451,
+      "/firmware-update": 0.47306259251115496
+    },
+    "session_mean_minutes": 0.7393336110280844,
+    "session_std_minutes": 0.06118378845310543,
+    "command_pool": [
+      "export_csv",
+      "cat"
+    ],
+    "command_weights": [
+      0.6,
+      0.4
+    ],
+    "activity_level": 1.2556358058261297
+  },
+  "EDGE_067": {
+    "entity_type": "edge_device",
+    "home_locations": [
+      "Bengaluru"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "SecureRTOS-3.4/D4:E9:1D:EC:9D:0B"
+    ],
+    "device_weights": [
+      1.0
+    ],
+    "ip_subnet": "192.168.131",
+    "active_hour_start": 0,
+    "active_hour_end": 23,
+    "active_on_weekends": true,
+    "typical_auth_method": "certificate",
+    "resource_weights": {
+      "/telemetry": 0.4121308935827825,
+      "/firmware-update": 0.2976984655455228,
+      "/sensor-data": 0.29017064087169475
+    },
+    "session_mean_minutes": 0.7916823488493663,
+    "session_std_minutes": 0.06304498405919554,
+    "command_pool": [
+      "cd",
+      "cat"
+    ],
+    "command_weights": [
+      0.6,
+      0.4
+    ],
+    "activity_level": 1.4870907068913202
+  },
+  "EDGE_068": {
+    "entity_type": "edge_device",
+    "home_locations": [
+      "Bengaluru"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "SecureRTOS-3.4/45:D7:BF:C3:E5:C1"
+    ],
+    "device_weights": [
+      1.0
+    ],
+    "ip_subnet": "192.168.196",
+    "active_hour_start": 0,
+    "active_hour_end": 23,
+    "active_on_weekends": true,
+    "typical_auth_method": "certificate",
+    "resource_weights": {
+      "/firmware-update": 0.5654843064499568,
+      "/telemetry": 0.43451569355004327
+    },
+    "session_mean_minutes": 0.5173055237264057,
+    "session_std_minutes": 0.08095006986342898,
+    "command_pool": [
+      "scp",
+      "ps_aux"
+    ],
+    "command_weights": [
+      0.6,
+      0.4
+    ],
+    "activity_level": 1.4226902159662664
+  },
+  "EDGE_069": {
+    "entity_type": "edge_device",
+    "home_locations": [
+      "Chennai"
+    ],
+    "location_weights": [
+      1.0
+    ],
+    "known_devices": [
+      "EdgeOS-2.1/0B:98:ED:D9:C2:75"
+    ],
+    "device_weights": [
+      1.0
+    ],
+    "ip_subnet": "192.168.193",
+    "active_hour_start": 0,
+    "active_hour_end": 23,
+    "active_on_weekends": true,
+    "typical_auth_method": "certificate",
+    "resource_weights": {
+      "/sensor-data": 0.4026646496352336,
+      "/telemetry": 0.37401144274527376,
+      "/firmware-update": 0.22332390761949275
+    },
+    "session_mean_minutes": 0.5689539243253475,
+    "session_std_minutes": 0.09553665512698116,
+    "command_pool": [
+      "cd",
+      "netstat"
+    ],
+    "command_weights": [
+      0.6,
+      0.4
+    ],
+    "activity_level": 2.0890413419577913
+  }
+}

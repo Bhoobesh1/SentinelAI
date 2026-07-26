@@ -1,0 +1,1267 @@
+{
+  "EDGE_066": {
+    "total_events": 337,
+    "known_devices": [
+      "EdgeOS-2.1/E4:B9:27:39:1F:67",
+      "DEV_732"
+    ],
+    "typical_locations": [
+      "Singapore",
+      "London",
+      "Mumbai"
+    ],
+    "typical_resources": [
+      "/sensor-data",
+      "/firmware-update",
+      "/customer-data"
+    ],
+    "auth_failure_rate": 0.03560830860534125
+  },
+  "SVC_063": {
+    "total_events": 206,
+    "known_devices": [
+      "DEV_402",
+      "DEV_674"
+    ],
+    "typical_locations": [
+      "Chennai",
+      "Pune"
+    ],
+    "typical_resources": [
+      "/github",
+      "/sensor-data"
+    ],
+    "auth_failure_rate": 0.043689320388349516
+  },
+  "EDGE_065": {
+    "total_events": 502,
+    "known_devices": [
+      "EdgeOS-2.1/9F:3C:97:BC:71:70",
+      "DEV_383",
+      "DEV_719"
+    ],
+    "typical_locations": [
+      "Pune",
+      "Moscow",
+      "Frankfurt"
+    ],
+    "typical_resources": [
+      "/sensor-data",
+      "/telemetry",
+      "/firmware-update"
+    ],
+    "auth_failure_rate": 0.025896414342629483
+  },
+  "SVC_056": {
+    "total_events": 263,
+    "known_devices": [
+      "DEV_404",
+      "DEV_760"
+    ],
+    "typical_locations": [
+      "Delhi",
+      "Lagos",
+      "New_York"
+    ],
+    "typical_resources": [
+      "/internal-api",
+      "/sensor-data"
+    ],
+    "auth_failure_rate": 0.034220532319391636
+  },
+  "SVC_062": {
+    "total_events": 270,
+    "known_devices": [
+      "DEV_756",
+      "SPOOF_8705"
+    ],
+    "typical_locations": [
+      "Hyderabad"
+    ],
+    "typical_resources": [
+      "/github",
+      "/source-control-prod"
+    ],
+    "auth_failure_rate": 0.02962962962962963
+  },
+  "EDGE_068": {
+    "total_events": 398,
+    "known_devices": [
+      "SecureRTOS-3.4/45:D7:BF:C3:E5:C1",
+      "DEV_883",
+      "DEV_491"
+    ],
+    "typical_locations": [
+      "Bengaluru",
+      "London",
+      "Lagos"
+    ],
+    "typical_resources": [
+      "/firmware-update",
+      "/telemetry",
+      "/admin-console"
+    ],
+    "auth_failure_rate": 0.05778894472361809
+  },
+  "EDGE_067": {
+    "total_events": 371,
+    "known_devices": [
+      "SecureRTOS-3.4/D4:E9:1D:EC:9D:0B",
+      "DEV_498",
+      "SPOOF_5840"
+    ],
+    "typical_locations": [
+      "Bengaluru",
+      "New_York"
+    ],
+    "typical_resources": [
+      "/telemetry",
+      "/sensor-data",
+      "/firmware-update"
+    ],
+    "auth_failure_rate": 0.03504043126684636
+  },
+  "SVC_061": {
+    "total_events": 296,
+    "known_devices": [
+      "DEV_607",
+      "SPOOF_5840"
+    ],
+    "typical_locations": [
+      "Chennai",
+      "New_York",
+      "Moscow"
+    ],
+    "typical_resources": [
+      "/sensor-data"
+    ],
+    "auth_failure_rate": 0.013513513513513514
+  },
+  "SVC_059": {
+    "total_events": 292,
+    "known_devices": [
+      "DEV_797",
+      "DEV_523"
+    ],
+    "typical_locations": [
+      "Pune",
+      "Bengaluru",
+      "Hyderabad"
+    ],
+    "typical_resources": [
+      "/email",
+      "/finance-db",
+      "/admin-console"
+    ],
+    "auth_failure_rate": 0.02054794520547945
+  },
+  "SVC_060": {
+    "total_events": 346,
+    "known_devices": [
+      "DEV_160",
+      "DEV_956",
+      "DEV_225"
+    ],
+    "typical_locations": [
+      "Hyderabad",
+      "Frankfurt",
+      "Chennai"
+    ],
+    "typical_resources": [
+      "/telemetry",
+      "/backup-vault",
+      "/customer-data"
+    ],
+    "auth_failure_rate": 0.03757225433526012
+  },
+  "USER_008": {
+    "total_events": 416,
+    "known_devices": [
+      "DEV_698",
+      "SPOOF_8705",
+      "DEV_531"
+    ],
+    "typical_locations": [
+      "Pune",
+      "New_York"
+    ],
+    "typical_resources": [
+      "/wiki",
+      "/hr-portal",
+      "/firmware-update"
+    ],
+    "auth_failure_rate": 0.021634615384615384
+  },
+  "USER_035": {
+    "total_events": 412,
+    "known_devices": [
+      "DEV_460",
+      "DEV_206",
+      "DEV_352"
+    ],
+    "typical_locations": [
+      "Singapore",
+      "Pune",
+      "Moscow"
+    ],
+    "typical_resources": [
+      "/wiki",
+      "/sensor-data",
+      "/github"
+    ],
+    "auth_failure_rate": 0.02669902912621359
+  },
+  "USER_036": {
+    "total_events": 237,
+    "known_devices": [
+      "DEV_529",
+      "DEV_564",
+      "DEV_449"
+    ],
+    "typical_locations": [
+      "Pune",
+      "New_York",
+      "Chennai"
+    ],
+    "typical_resources": [
+      "/email",
+      "/telemetry",
+      "/firmware-update"
+    ],
+    "auth_failure_rate": 0.05063291139240506
+  },
+  "USER_017": {
+    "total_events": 158,
+    "known_devices": [
+      "DEV_458",
+      "SPOOF_5840",
+      "SPOOF_8705"
+    ],
+    "typical_locations": [
+      "Hyderabad",
+      "Chennai",
+      "Lagos"
+    ],
+    "typical_resources": [
+      "/email",
+      "/hr-portal"
+    ],
+    "auth_failure_rate": 0.02531645569620253
+  },
+  "USER_003": {
+    "total_events": 230,
+    "known_devices": [
+      "DEV_801",
+      "DEV_432",
+      "DEV_916"
+    ],
+    "typical_locations": [
+      "Mumbai",
+      "Delhi",
+      "Pune"
+    ],
+    "typical_resources": [
+      "/admin-console",
+      "/wiki",
+      "/hr-portal"
+    ],
+    "auth_failure_rate": 0.0782608695652174
+  },
+  "USER_014": {
+    "total_events": 254,
+    "known_devices": [
+      "DEV_566",
+      "DEV_407"
+    ],
+    "typical_locations": [
+      "Mumbai",
+      "London"
+    ],
+    "typical_resources": [
+      "/internal-api",
+      "/wiki",
+      "/source-control-prod"
+    ],
+    "auth_failure_rate": 0.015748031496062992
+  },
+  "USER_023": {
+    "total_events": 184,
+    "known_devices": [
+      "DEV_269",
+      "DEV_950",
+      "DEV_859"
+    ],
+    "typical_locations": [
+      "Singapore",
+      "London"
+    ],
+    "typical_resources": [
+      "/hr-portal",
+      "/telemetry",
+      "/customer-data"
+    ],
+    "auth_failure_rate": 0.03804347826086957
+  },
+  "USER_002": {
+    "total_events": 352,
+    "known_devices": [
+      "DEV_926",
+      "DEV_144",
+      "DEV_873"
+    ],
+    "typical_locations": [
+      "Hyderabad",
+      "Delhi"
+    ],
+    "typical_resources": [
+      "/email",
+      "/internal-api",
+      "/telemetry"
+    ],
+    "auth_failure_rate": 0.02556818181818182
+  },
+  "USER_021": {
+    "total_events": 393,
+    "known_devices": [
+      "DEV_814",
+      "DEV_229",
+      "DEV_727"
+    ],
+    "typical_locations": [
+      "Chennai",
+      "Pune",
+      "Moscow"
+    ],
+    "typical_resources": [
+      "/source-control-prod",
+      "/internal-api",
+      "/github"
+    ],
+    "auth_failure_rate": 0.035623409669211195
+  },
+  "EDGE_069": {
+    "total_events": 562,
+    "known_devices": [
+      "EdgeOS-2.1/0B:98:ED:D9:C2:75",
+      "SPOOF_5397",
+      "DEV_978"
+    ],
+    "typical_locations": [
+      "Chennai",
+      "Mumbai",
+      "Moscow"
+    ],
+    "typical_resources": [
+      "/telemetry",
+      "/sensor-data",
+      "/firmware-update"
+    ],
+    "auth_failure_rate": 0.021352313167259787
+  },
+  "USER_007": {
+    "total_events": 400,
+    "known_devices": [
+      "DEV_151",
+      "DEV_456",
+      "DEV_785"
+    ],
+    "typical_locations": [
+      "Mumbai",
+      "London",
+      "Bengaluru"
+    ],
+    "typical_resources": [
+      "/sensor-data",
+      "/internal-api",
+      "/finance-db"
+    ],
+    "auth_failure_rate": 0.05
+  },
+  "USER_028": {
+    "total_events": 294,
+    "known_devices": [
+      "DEV_679",
+      "DEV_911",
+      "DEV_798"
+    ],
+    "typical_locations": [
+      "Mumbai",
+      "Singapore",
+      "London"
+    ],
+    "typical_resources": [
+      "/internal-api",
+      "/telemetry",
+      "/customer-data"
+    ],
+    "auth_failure_rate": 0.03741496598639456
+  },
+  "USER_022": {
+    "total_events": 298,
+    "known_devices": [
+      "DEV_412",
+      "DEV_735",
+      "DEV_682"
+    ],
+    "typical_locations": [
+      "Singapore",
+      "Frankfurt"
+    ],
+    "typical_resources": [
+      "/github",
+      "/wiki",
+      "/sensor-data"
+    ],
+    "auth_failure_rate": 0.030201342281879196
+  },
+  "USER_050": {
+    "total_events": 375,
+    "known_devices": [
+      "DEV_886",
+      "DEV_232",
+      "SPOOF_5840"
+    ],
+    "typical_locations": [
+      "Pune",
+      "Delhi",
+      "Bengaluru"
+    ],
+    "typical_resources": [
+      "/github",
+      "/wiki"
+    ],
+    "auth_failure_rate": 0.018666666666666668
+  },
+  "USER_038": {
+    "total_events": 200,
+    "known_devices": [
+      "DEV_178",
+      "DEV_622",
+      "DEV_363"
+    ],
+    "typical_locations": [
+      "Bengaluru",
+      "New_York",
+      "London"
+    ],
+    "typical_resources": [
+      "/github",
+      "/wiki",
+      "/sensor-data"
+    ],
+    "auth_failure_rate": 0.015
+  },
+  "USER_032": {
+    "total_events": 202,
+    "known_devices": [
+      "DEV_151",
+      "DEV_996"
+    ],
+    "typical_locations": [
+      "Pune"
+    ],
+    "typical_resources": [
+      "/internal-api",
+      "/hr-portal",
+      "/admin-console"
+    ],
+    "auth_failure_rate": 0.0297029702970297
+  },
+  "USER_013": {
+    "total_events": 170,
+    "known_devices": [
+      "DEV_780",
+      "DEV_488",
+      "DEV_793"
+    ],
+    "typical_locations": [
+      "Delhi",
+      "Lagos",
+      "Hyderabad"
+    ],
+    "typical_resources": [
+      "/sensor-data",
+      "/hr-portal",
+      "/customer-data"
+    ],
+    "auth_failure_rate": 0.041176470588235294
+  },
+  "USER_037": {
+    "total_events": 235,
+    "known_devices": [
+      "DEV_222",
+      "DEV_107",
+      "SPOOF_5840"
+    ],
+    "typical_locations": [
+      "Singapore"
+    ],
+    "typical_resources": [
+      "/email",
+      "/telemetry",
+      "/internal-api"
+    ],
+    "auth_failure_rate": 0.02127659574468085
+  },
+  "USER_015": {
+    "total_events": 391,
+    "known_devices": [
+      "DEV_950",
+      "DEV_661",
+      "DEV_556"
+    ],
+    "typical_locations": [
+      "Singapore",
+      "New_York",
+      "London"
+    ],
+    "typical_resources": [
+      "/backup-vault",
+      "/telemetry",
+      "/wiki"
+    ],
+    "auth_failure_rate": 0.04603580562659847
+  },
+  "USER_029": {
+    "total_events": 395,
+    "known_devices": [
+      "DEV_381",
+      "DEV_108",
+      "DEV_679"
+    ],
+    "typical_locations": [
+      "Chennai",
+      "Lagos",
+      "Mumbai"
+    ],
+    "typical_resources": [
+      "/wiki",
+      "/telemetry",
+      "/github"
+    ],
+    "auth_failure_rate": 0.03291139240506329
+  },
+  "USER_043": {
+    "total_events": 381,
+    "known_devices": [
+      "DEV_391",
+      "DEV_981"
+    ],
+    "typical_locations": [
+      "Pune",
+      "Frankfurt",
+      "Moscow"
+    ],
+    "typical_resources": [
+      "/source-control-prod",
+      "/wiki",
+      "/customer-data"
+    ],
+    "auth_failure_rate": 0.047244094488188976
+  },
+  "USER_018": {
+    "total_events": 365,
+    "known_devices": [
+      "DEV_832",
+      "DEV_506",
+      "DEV_303"
+    ],
+    "typical_locations": [
+      "Delhi"
+    ],
+    "typical_resources": [
+      "/email",
+      "/github",
+      "/hr-portal"
+    ],
+    "auth_failure_rate": 0.030136986301369864
+  },
+  "USER_034": {
+    "total_events": 384,
+    "known_devices": [
+      "DEV_540",
+      "DEV_562",
+      "SPOOF_5397"
+    ],
+    "typical_locations": [
+      "Singapore",
+      "Frankfurt",
+      "Bengaluru"
+    ],
+    "typical_resources": [
+      "/sensor-data",
+      "/github",
+      "/source-control-prod"
+    ],
+    "auth_failure_rate": 0.028645833333333332
+  },
+  "USER_031": {
+    "total_events": 384,
+    "known_devices": [
+      "DEV_604",
+      "DEV_218",
+      "SPOOF_5840"
+    ],
+    "typical_locations": [
+      "Chennai",
+      "Hyderabad",
+      "Pune"
+    ],
+    "typical_resources": [
+      "/sensor-data",
+      "/hr-portal",
+      "/wiki"
+    ],
+    "auth_failure_rate": 0.049479166666666664
+  },
+  "USER_051": {
+    "total_events": 317,
+    "known_devices": [
+      "DEV_945",
+      "DEV_940",
+      "DEV_392"
+    ],
+    "typical_locations": [
+      "Singapore",
+      "Frankfurt",
+      "Delhi"
+    ],
+    "typical_resources": [
+      "/hr-portal",
+      "/sensor-data",
+      "/telemetry"
+    ],
+    "auth_failure_rate": 0.03785488958990536
+  },
+  "USER_009": {
+    "total_events": 207,
+    "known_devices": [
+      "DEV_175",
+      "DEV_594",
+      "SPOOF_8705"
+    ],
+    "typical_locations": [
+      "Mumbai",
+      "New_York",
+      "London"
+    ],
+    "typical_resources": [
+      "/telemetry",
+      "/github",
+      "/admin-console"
+    ],
+    "auth_failure_rate": 0.014492753623188406
+  },
+  "USER_055": {
+    "total_events": 204,
+    "known_devices": [
+      "DEV_295",
+      "DEV_199",
+      "DEV_515"
+    ],
+    "typical_locations": [
+      "Bengaluru",
+      "Pune",
+      "Mumbai"
+    ],
+    "typical_resources": [
+      "/sensor-data",
+      "/hr-portal",
+      "/internal-api"
+    ],
+    "auth_failure_rate": 0.08333333333333333
+  },
+  "USER_039": {
+    "total_events": 199,
+    "known_devices": [
+      "DEV_915",
+      "DEV_381",
+      "DEV_942"
+    ],
+    "typical_locations": [
+      "Mumbai",
+      "London"
+    ],
+    "typical_resources": [
+      "/telemetry",
+      "/sensor-data",
+      "/wiki"
+    ],
+    "auth_failure_rate": 0.035175879396984924
+  },
+  "SVC_057": {
+    "total_events": 239,
+    "known_devices": [
+      "DEV_891",
+      "SPOOF_5840"
+    ],
+    "typical_locations": [
+      "Mumbai",
+      "Pune",
+      "Frankfurt"
+    ],
+    "typical_resources": [
+      "/hr-portal"
+    ],
+    "auth_failure_rate": 0.016736401673640166
+  },
+  "USER_030": {
+    "total_events": 246,
+    "known_devices": [
+      "DEV_402",
+      "DEV_925",
+      "DEV_864"
+    ],
+    "typical_locations": [
+      "Singapore",
+      "Lagos",
+      "Pune"
+    ],
+    "typical_resources": [
+      "/sensor-data",
+      "/hr-portal",
+      "/firmware-update"
+    ],
+    "auth_failure_rate": 0.06097560975609756
+  },
+  "USER_053": {
+    "total_events": 278,
+    "known_devices": [
+      "DEV_649",
+      "DEV_392",
+      "DEV_108"
+    ],
+    "typical_locations": [
+      "Hyderabad",
+      "Chennai",
+      "New_York"
+    ],
+    "typical_resources": [
+      "/email",
+      "/hr-portal",
+      "/backup-vault"
+    ],
+    "auth_failure_rate": 0.017985611510791366
+  },
+  "USER_044": {
+    "total_events": 372,
+    "known_devices": [
+      "DEV_812",
+      "DEV_951",
+      "DEV_242"
+    ],
+    "typical_locations": [
+      "Chennai",
+      "Frankfurt",
+      "Pune"
+    ],
+    "typical_resources": [
+      "/sensor-data",
+      "/email",
+      "/source-control-prod"
+    ],
+    "auth_failure_rate": 0.0456989247311828
+  },
+  "USER_006": {
+    "total_events": 351,
+    "known_devices": [
+      "DEV_785",
+      "DEV_385",
+      "SPOOF_5397"
+    ],
+    "typical_locations": [
+      "Singapore",
+      "Pune",
+      "Frankfurt"
+    ],
+    "typical_resources": [
+      "/email",
+      "/internal-api",
+      "/sensor-data"
+    ],
+    "auth_failure_rate": 0.02849002849002849
+  },
+  "EDGE_064": {
+    "total_events": 428,
+    "known_devices": [
+      "SecureRTOS-3.4/A5:7F:03:85:C4:78",
+      "SPOOF_8705",
+      "DEV_441"
+    ],
+    "typical_locations": [
+      "Bengaluru",
+      "New_York",
+      "Pune"
+    ],
+    "typical_resources": [
+      "/sensor-data",
+      "/telemetry",
+      "/firmware-update"
+    ],
+    "auth_failure_rate": 0.0397196261682243
+  },
+  "USER_041": {
+    "total_events": 329,
+    "known_devices": [
+      "DEV_758",
+      "DEV_910",
+      "DEV_436"
+    ],
+    "typical_locations": [
+      "Bengaluru",
+      "Delhi",
+      "Singapore"
+    ],
+    "typical_resources": [
+      "/telemetry",
+      "/github",
+      "/wiki"
+    ],
+    "auth_failure_rate": 0.04559270516717325
+  },
+  "USER_045": {
+    "total_events": 362,
+    "known_devices": [
+      "DEV_346",
+      "DEV_684",
+      "DEV_562"
+    ],
+    "typical_locations": [
+      "Mumbai",
+      "Lagos"
+    ],
+    "typical_resources": [
+      "/email",
+      "/internal-api",
+      "/sensor-data"
+    ],
+    "auth_failure_rate": 0.04143646408839779
+  },
+  "SVC_058": {
+    "total_events": 254,
+    "known_devices": [
+      "DEV_675",
+      "DEV_913"
+    ],
+    "typical_locations": [
+      "Singapore",
+      "New_York",
+      "Mumbai"
+    ],
+    "typical_resources": [
+      "/wiki",
+      "/github",
+      "/firmware-update"
+    ],
+    "auth_failure_rate": 0.03937007874015748
+  },
+  "USER_011": {
+    "total_events": 324,
+    "known_devices": [
+      "DEV_522",
+      "DEV_125",
+      "DEV_830"
+    ],
+    "typical_locations": [
+      "Singapore",
+      "Frankfurt",
+      "Delhi"
+    ],
+    "typical_resources": [
+      "/internal-api",
+      "/wiki",
+      "/backup-vault"
+    ],
+    "auth_failure_rate": 0.046296296296296294
+  },
+  "USER_019": {
+    "total_events": 341,
+    "known_devices": [
+      "DEV_683",
+      "DEV_724",
+      "DEV_784"
+    ],
+    "typical_locations": [
+      "Mumbai"
+    ],
+    "typical_resources": [
+      "/hr-portal",
+      "/admin-console",
+      "/telemetry"
+    ],
+    "auth_failure_rate": 0.03225806451612903
+  },
+  "USER_025": {
+    "total_events": 254,
+    "known_devices": [
+      "DEV_224",
+      "DEV_129",
+      "DEV_745"
+    ],
+    "typical_locations": [
+      "Hyderabad",
+      "Delhi",
+      "Moscow"
+    ],
+    "typical_resources": [
+      "/finance-db",
+      "/email",
+      "/hr-portal"
+    ],
+    "auth_failure_rate": 0.027559055118110236
+  },
+  "USER_012": {
+    "total_events": 252,
+    "known_devices": [
+      "DEV_282",
+      "DEV_694",
+      "DEV_497"
+    ],
+    "typical_locations": [
+      "Chennai",
+      "Hyderabad",
+      "Lagos"
+    ],
+    "typical_resources": [
+      "/sensor-data",
+      "/hr-portal",
+      "/admin-console"
+    ],
+    "auth_failure_rate": 0.031746031746031744
+  },
+  "USER_052": {
+    "total_events": 216,
+    "known_devices": [
+      "DEV_627",
+      "DEV_675",
+      "SPOOF_5397"
+    ],
+    "typical_locations": [
+      "Mumbai",
+      "Hyderabad",
+      "London"
+    ],
+    "typical_resources": [
+      "/github",
+      "/email"
+    ],
+    "auth_failure_rate": 0.023148148148148147
+  },
+  "USER_004": {
+    "total_events": 157,
+    "known_devices": [
+      "DEV_357",
+      "DEV_641",
+      "DEV_666"
+    ],
+    "typical_locations": [
+      "Chennai",
+      "Delhi"
+    ],
+    "typical_resources": [
+      "/hr-portal",
+      "/internal-api",
+      "/wiki"
+    ],
+    "auth_failure_rate": 0.044585987261146494
+  },
+  "USER_027": {
+    "total_events": 227,
+    "known_devices": [
+      "DEV_176",
+      "DEV_580",
+      "DEV_302"
+    ],
+    "typical_locations": [
+      "Chennai",
+      "Pune",
+      "Moscow"
+    ],
+    "typical_resources": [
+      "/sensor-data",
+      "/github",
+      "/source-control-prod"
+    ],
+    "auth_failure_rate": 0.039647577092511016
+  },
+  "USER_040": {
+    "total_events": 299,
+    "known_devices": [
+      "DEV_831",
+      "DEV_186",
+      "DEV_241"
+    ],
+    "typical_locations": [
+      "Mumbai",
+      "Hyderabad"
+    ],
+    "typical_resources": [
+      "/backup-vault",
+      "/github",
+      "/sensor-data"
+    ],
+    "auth_failure_rate": 0.033444816053511704
+  },
+  "USER_033": {
+    "total_events": 161,
+    "known_devices": [
+      "DEV_625",
+      "DEV_707",
+      "SPOOF_5397"
+    ],
+    "typical_locations": [
+      "Delhi",
+      "Chennai"
+    ],
+    "typical_resources": [
+      "/email",
+      "/sensor-data",
+      "/internal-api"
+    ],
+    "auth_failure_rate": 0.037267080745341616
+  },
+  "USER_020": {
+    "total_events": 311,
+    "known_devices": [
+      "DEV_535",
+      "DEV_863",
+      "DEV_493"
+    ],
+    "typical_locations": [
+      "Mumbai",
+      "Lagos",
+      "Frankfurt"
+    ],
+    "typical_resources": [
+      "/internal-api",
+      "/github",
+      "/admin-console"
+    ],
+    "auth_failure_rate": 0.028938906752411574
+  },
+  "USER_042": {
+    "total_events": 232,
+    "known_devices": [
+      "DEV_838",
+      "DEV_548",
+      "DEV_788"
+    ],
+    "typical_locations": [
+      "Bengaluru",
+      "Frankfurt",
+      "Moscow"
+    ],
+    "typical_resources": [
+      "/firmware-update",
+      "/wiki",
+      "/hr-portal"
+    ],
+    "auth_failure_rate": 0.03017241379310345
+  },
+  "USER_026": {
+    "total_events": 271,
+    "known_devices": [
+      "DEV_957",
+      "DEV_701",
+      "DEV_117"
+    ],
+    "typical_locations": [
+      "Singapore",
+      "Lagos"
+    ],
+    "typical_resources": [
+      "/internal-api",
+      "/sensor-data",
+      "/github"
+    ],
+    "auth_failure_rate": 0.06273062730627306
+  },
+  "USER_048": {
+    "total_events": 260,
+    "known_devices": [
+      "DEV_479",
+      "DEV_480",
+      "DEV_554"
+    ],
+    "typical_locations": [
+      "Delhi",
+      "Frankfurt",
+      "Chennai"
+    ],
+    "typical_resources": [
+      "/github",
+      "/internal-api",
+      "/email"
+    ],
+    "auth_failure_rate": 0.03461538461538462
+  },
+  "USER_016": {
+    "total_events": 269,
+    "known_devices": [
+      "DEV_588",
+      "DEV_106",
+      "DEV_460"
+    ],
+    "typical_locations": [
+      "Singapore",
+      "Lagos",
+      "London"
+    ],
+    "typical_resources": [
+      "/sensor-data",
+      "/internal-api",
+      "/customer-data"
+    ],
+    "auth_failure_rate": 0.07806691449814127
+  },
+  "USER_005": {
+    "total_events": 193,
+    "known_devices": [
+      "DEV_159",
+      "DEV_346",
+      "DEV_206"
+    ],
+    "typical_locations": [
+      "Singapore",
+      "Lagos",
+      "Moscow"
+    ],
+    "typical_resources": [
+      "/github",
+      "/telemetry",
+      "/internal-api"
+    ],
+    "auth_failure_rate": 0.06217616580310881
+  },
+  "USER_001": {
+    "total_events": 178,
+    "known_devices": [
+      "DEV_242",
+      "DEV_328",
+      "DEV_708"
+    ],
+    "typical_locations": [
+      "Chennai",
+      "Mumbai",
+      "Frankfurt"
+    ],
+    "typical_resources": [
+      "/internal-api",
+      "/wiki",
+      "/sensor-data"
+    ],
+    "auth_failure_rate": 0.033707865168539325
+  },
+  "USER_047": {
+    "total_events": 250,
+    "known_devices": [
+      "DEV_181",
+      "DEV_449",
+      "DEV_455"
+    ],
+    "typical_locations": [
+      "Delhi",
+      "Moscow",
+      "Lagos"
+    ],
+    "typical_resources": [
+      "/github",
+      "/telemetry",
+      "/internal-api"
+    ],
+    "auth_failure_rate": 0.056
+  },
+  "USER_046": {
+    "total_events": 176,
+    "known_devices": [
+      "DEV_137",
+      "DEV_306",
+      "DEV_400"
+    ],
+    "typical_locations": [
+      "Pune",
+      "Bengaluru",
+      "Hyderabad"
+    ],
+    "typical_resources": [
+      "/email",
+      "/telemetry",
+      "/sensor-data"
+    ],
+    "auth_failure_rate": 0.03409090909090909
+  },
+  "USER_024": {
+    "total_events": 208,
+    "known_devices": [
+      "DEV_193",
+      "DEV_581",
+      "DEV_456"
+    ],
+    "typical_locations": [
+      "Hyderabad",
+      "Bengaluru",
+      "Delhi"
+    ],
+    "typical_resources": [
+      "/sensor-data",
+      "/hr-portal",
+      "/admin-console"
+    ],
+    "auth_failure_rate": 0.02403846153846154
+  },
+  "USER_010": {
+    "total_events": 370,
+    "known_devices": [
+      "DEV_145",
+      "DEV_103"
+    ],
+    "typical_locations": [
+      "Hyderabad",
+      "Chennai"
+    ],
+    "typical_resources": [
+      "/email",
+      "/sensor-data",
+      "/source-control-prod"
+    ],
+    "auth_failure_rate": 0.03513513513513514
+  },
+  "USER_049": {
+    "total_events": 181,
+    "known_devices": [
+      "DEV_783",
+      "DEV_455",
+      "DEV_180"
+    ],
+    "typical_locations": [
+      "Singapore",
+      "Chennai",
+      "Moscow"
+    ],
+    "typical_resources": [
+      "/github",
+      "/sensor-data",
+      "/hr-portal"
+    ],
+    "auth_failure_rate": 0.016574585635359115
+  },
+  "USER_054": {
+    "total_events": 173,
+    "known_devices": [
+      "DEV_923",
+      "DEV_585",
+      "SPOOF_5840"
+    ],
+    "typical_locations": [
+      "Chennai",
+      "Bengaluru",
+      "Moscow"
+    ],
+    "typical_resources": [
+      "/sensor-data",
+      "/telemetry",
+      "/hr-portal"
+    ],
+    "auth_failure_rate": 0.05202312138728324
+  }
+}

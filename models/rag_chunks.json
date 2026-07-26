@@ -1,0 +1,200 @@
+[
+  {
+    "source_document": "brute_force.md",
+    "document_title": "Brute Force Attacks",
+    "section_title": "Description",
+    "text": "A brute force attack is a rapid, repeated series of authentication attempts\nagainst a single account, typically using automated tooling that tries many\npassword guesses in a short window. The attacker usually operates from a\nsingle source IP or a small rotating pool of IPs, and often has no prior\nrelationship with the target account's normal behavior."
+  },
+  {
+    "source_document": "brute_force.md",
+    "document_title": "Brute Force Attacks",
+    "section_title": "Indicators",
+    "text": "- A high number of failed authentication attempts in a short time window\n  (minutes, not hours) against the same account.\n- Attempts frequently originate from a single source IP or a small set of\n  IPs not previously associated with the account.\n- Device fingerprints during the burst are often inconsistent or absent,\n  since automated tooling rarely presents a stable, legitimate device.\n- A brute force burst is sometimes followed by a single successful\n  authentication, suggesting the attacker eventually guessed correctly or\n  exploited a weak/reused password."
+  },
+  {
+    "source_document": "brute_force.md",
+    "document_title": "Brute Force Attacks",
+    "section_title": "Investigation Questions",
+    "text": "- How many failed attempts occurred, and over what time span?\n- Did any attempt in the burst succeed? If so, what happened immediately\n  after that successful login?\n- Is the source IP associated with known malicious infrastructure or with\n  any other account on the network?\n- Does this account have a history of weak or reused credentials?"
+  },
+  {
+    "source_document": "brute_force.md",
+    "document_title": "Brute Force Attacks",
+    "section_title": "Defensive Recommendations",
+    "text": "- Enforce account lockout or exponential backoff after repeated failures.\n- Require multi-factor authentication, especially for accounts with\n  sensitive resource access.\n- Block or rate-limit the offending source IP at the network layer.\n- If any attempt succeeded, treat the account as potentially compromised:\n  force a password reset and review all activity since the successful login."
+  },
+  {
+    "source_document": "credential_stuffing.md",
+    "document_title": "Credential Stuffing",
+    "section_title": "Description",
+    "text": "Credential stuffing is an attack where a single source (one IP, or a small\ncoordinated pool) attempts authentication against MANY different accounts,\ntypically using credentials leaked from a prior breach elsewhere. Unlike\nbrute force, which hammers one account with many password guesses,\ncredential stuffing spreads a smaller number of attempts across a large\nnumber of distinct accounts, betting that at least a few will have reused\nthe same leaked password."
+  },
+  {
+    "source_document": "credential_stuffing.md",
+    "document_title": "Credential Stuffing",
+    "section_title": "Indicators",
+    "text": "- One source IP (or a small set of related IPs) attempting authentication\n  against many different, otherwise-unrelated accounts in a short window.\n- Attempts are typically fast and automated -- seconds apart, not the\n  pace of a human typing.\n- The large majority of attempts fail, since most leaked credentials\n  don't match the current password for a given service; a small minority\n  may succeed.\n- Devices used across the attempts are often inconsistent, generic, or\n  clearly automated/scripted rather than legitimate end-user devices."
+  },
+  {
+    "source_document": "credential_stuffing.md",
+    "document_title": "Credential Stuffing",
+    "section_title": "Investigation Questions",
+    "text": "- How many distinct accounts were targeted from this source, and over\n  what time span?\n- Did any of the targeted accounts have a successful authentication? If\n  so, prioritize those for immediate review.\n- Is the source IP associated with known credential-stuffing\n  infrastructure, botnets, or prior incidents?\n- Are the targeted accounts otherwise unrelated, or do they share some\n  organizational pattern (e.g., all from one department)?"
+  },
+  {
+    "source_document": "credential_stuffing.md",
+    "document_title": "Credential Stuffing",
+    "section_title": "Defensive Recommendations",
+    "text": "- Rate-limit or block the offending source IP(s) at the network/WAF layer.\n- Force password resets for any account with a successful login from\n  this source, and require MFA going forward.\n- Consider organization-wide breached-password screening so reused\n  credentials from external breaches can't be exploited here.\n- Correlate with other accounts on the network that may have been probed\n  from the same infrastructure, even if this particular alert only\n  covers one account."
+  },
+  {
+    "source_document": "device_spoofing.md",
+    "document_title": "Device Spoofing",
+    "section_title": "Description",
+    "text": "Device spoofing occurs when a login presents a device fingerprint that is\nnew for the account, and in more suspicious cases, a fingerprint that has\nalso been observed on OTHER, seemingly unrelated accounts. A single\nnever-before-seen device is common and often benign (a new phone, a new\nlaptop); the same unfamiliar device fingerprint appearing across multiple\ndifferent accounts in a short window is a much stronger signal, since it\nsuggests either shared/spoofed hardware identifiers or an attacker\nreusing the same tooling against multiple targets."
+  },
+  {
+    "source_document": "device_spoofing.md",
+    "document_title": "Device Spoofing",
+    "section_title": "Indicators",
+    "text": "- A login from a device fingerprint never previously associated with\n  this entity.\n- The same new device fingerprint appearing across multiple different\n  entities within a short time window -- this is the key distinguishing\n  signal from ordinary \"new personal device\" activity.\n- The new device is often paired with other anomalies: an unusual\n  location, an atypical login hour, or access to sensitive resources\n  the entity doesn't normally use."
+  },
+  {
+    "source_document": "device_spoofing.md",
+    "document_title": "Device Spoofing",
+    "section_title": "Investigation Questions",
+    "text": "- Has this exact device fingerprint been seen on any other account?\n  If so, which ones, and around what time?\n- Is there a plausible benign explanation (the user mentions buying a\n  new device, using a work loaner, etc.)?\n- What did the session do after authenticating with the new device --\n  did it touch anything sensitive?\n- Does the device fingerprint pattern look automated/generated rather\n  than a plausible real device (e.g., an implausible or clearly\n  templated identifier)?"
+  },
+  {
+    "source_document": "device_spoofing.md",
+    "document_title": "Device Spoofing",
+    "section_title": "Defensive Recommendations",
+    "text": "- Require a secondary verification step (MFA, email/SMS confirmation)\n  for logins from any device fingerprint not previously seen.\n- If the same device fingerprint is confirmed across multiple accounts,\n  treat this as a likely coordinated attack and investigate all affected\n  accounts together, not in isolation.\n- Maintain a device registry so genuinely new-but-legitimate devices can\n  be confirmed and whitelisted going forward, reducing future noise."
+  },
+  {
+    "source_document": "general_investigation_guidance.md",
+    "document_title": "General SOC Investigation Guidance",
+    "section_title": "Risk Score Interpretation",
+    "text": "SentinelAI's risk score is a 0-100 priority signal, not a probability of\ncompromise. LOW (0-29) generally warrants no action; MEDIUM (30-59)\nmay be worth a quick look if analyst capacity allows; HIGH (60-79) and\nespecially CRITICAL (80-100) should be investigated promptly. The score\nis a weighted combination of sequence anomaly, behavioral deviation,\nclassifier confidence, device novelty, and historical context -- always\ncheck the component breakdown to understand WHY a score is high, not\njust that it is high."
+  },
+  {
+    "source_document": "general_investigation_guidance.md",
+    "document_title": "General SOC Investigation Guidance",
+    "section_title": "Cold Start and Baseline Confidence",
+    "text": "New entities (or entities with very little history) don't yet have a\nreliable personal behavioral baseline. SentinelAI handles this by\nfalling back to entity-type and then global baselines, and by exposing\nwhich baseline was actually used (`baseline_source`) and how much\nconfidence exists in the entity-specific baseline (`cold_start_weight`).\nAn alert on a very new entity should be read with this context in mind\n-- some apparent \"anomalies\" may simply reflect that we don't yet know\nthis entity's true normal pattern well."
+  },
+  {
+    "source_document": "general_investigation_guidance.md",
+    "document_title": "General SOC Investigation Guidance",
+    "section_title": "Distinguishing Signal Types",
+    "text": "When reviewing any alert, keep four distinct categories of evidence\nseparate:\n1. ML evidence -- the autoencoder's reconstruction error and the\n   classifier's SHAP attributions. This is a statistical signal, not a\n   certainty.\n2. Historical telemetry -- the entity's actual past events, sourced\n   directly from stored logs.\n3. Retrieved cybersecurity knowledge -- general guidance about attack\n   patterns and investigation steps, like the documents in this\n   knowledge base. This is general knowledge, not a per-entity finding.\n4. AI interpretation -- the copilot's synthesis of the above. This\n   should be traceable back to the evidence, never presented as an\n   independent fact."
+  },
+  {
+    "source_document": "general_investigation_guidance.md",
+    "document_title": "General SOC Investigation Guidance",
+    "section_title": "Correlated Incidents",
+    "text": "A single alert may be part of a larger attack chain. Always check\nwhether related events for the same entity (or linked entities sharing\na source IP) exist nearby in time before concluding an alert is\nisolated. An attack chain's overall risk and stage sequence often tells\na more complete story than any single alert in it."
+  },
+  {
+    "source_document": "general_investigation_guidance.md",
+    "document_title": "General SOC Investigation Guidance",
+    "section_title": "False Positive Considerations",
+    "text": "Before escalating, consider plausible benign explanations: VPN or cloud\negress IPs that don't reflect a user's true location, legitimate new\ndevices, legitimate role changes explaining behavioral drift, and\nscheduled batch jobs for service accounts that may look like unusual\nactivity bursts. Ruling these out quickly avoids alert fatigue while\nstill taking genuine anomalies seriously."
+  },
+  {
+    "source_document": "impossible_travel.md",
+    "document_title": "Impossible Travel",
+    "section_title": "Description",
+    "text": "Impossible travel refers to two logins for the same account occurring from\ngeographically distant locations within a time window too short for a human\nto have physically traveled between them. This is one of the strongest\nsignals of account compromise, since it usually means the account's\ncredentials are being used from two different physical locations at once\n(the legitimate user, and an attacker who has obtained the credentials)."
+  },
+  {
+    "source_document": "impossible_travel.md",
+    "document_title": "Impossible Travel",
+    "section_title": "Indicators",
+    "text": "- Two consecutive logins for the same entity from locations separated by\n  a distance that, divided by the time between them, implies an\n  unrealistic travel speed (well beyond commercial flight speed).\n- The second login is often from a location the entity has never used\n  before, and frequently from a device that has also never been seen\n  for that entity.\n- Successful authentication on the anomalous login (the attacker\n  typically already has valid credentials, so this is not usually\n  paired with authentication failures)."
+  },
+  {
+    "source_document": "impossible_travel.md",
+    "document_title": "Impossible Travel",
+    "section_title": "Investigation Questions",
+    "text": "- What is the calculated travel speed implied by the two logins, and is\n  it physically plausible under any circumstance (e.g., a VPN, a\n  connecting flight layover, a shared corporate network egress point)?\n- Has this entity used this location or device before, even rarely?\n- What resources were accessed immediately after the anomalous login?\n- Is there a legitimate explanation, such as a VPN exit node or a cloud\n  provider's egress IP that doesn't reflect the user's true location?"
+  },
+  {
+    "source_document": "impossible_travel.md",
+    "document_title": "Impossible Travel",
+    "section_title": "Defensive Recommendations",
+    "text": "- Treat impossible travel as a high-priority signal of likely account\n  takeover; consider immediately requiring re-authentication with MFA.\n- Review and restrict any sensitive resource access that occurred after\n  the anomalous login.\n- Cross-check the anomalous IP against known VPN/proxy/cloud provider\n  ranges before concluding compromise, to reduce false positives from\n  legitimate remote-access tooling.\n- If compromise is confirmed, force credential rotation and review all\n  activity since the last known-good login."
+  },
+  {
+    "source_document": "insider_drift.md",
+    "document_title": "Insider Behavioral Drift",
+    "section_title": "Description",
+    "text": "Insider behavioral drift describes a gradual, sustained change in an\nentity's normal behavior over an extended period -- shifting login hours,\nincreasing use of a new device, or growing access to more sensitive\nresources -- rather than a single sharp, obviously anomalous event. This\npattern is intentionally the hardest to detect, because each individual\nstep in the drift looks only mildly unusual, and early in the drift\nwindow it may be genuinely indistinguishable from normal variation or a\nlegitimate change in someone's role or habits."
+  },
+  {
+    "source_document": "insider_drift.md",
+    "document_title": "Insider Behavioral Drift",
+    "section_title": "Indicators",
+    "text": "- A slow, sustained shift in login timing, device usage, or resource\n  access patterns over days to weeks, rather than an abrupt change.\n- Later in the drift window, the entity's behavior looks meaningfully\n  different from its own earlier baseline, even though no single event\n  in isolation is extreme.\n- Increasing access to sensitive resources over time, without a single\n  dramatic access spike.\n- Session characteristics (length, timing) gradually diverging from the\n  entity's established pattern."
+  },
+  {
+    "source_document": "insider_drift.md",
+    "document_title": "Insider Behavioral Drift",
+    "section_title": "Investigation Questions",
+    "text": "- Over what time period has this entity's behavior been changing, and\n  what specifically has shifted (hours, device, resources)?\n- Is there a legitimate explanation -- a role change, a new project, a\n  change in work schedule -- that would explain the drift?\n- Does the trajectory of the drift point toward increasing access to\n  sensitive systems, or is it a lateral, non-escalating change?\n- Has this entity's manager or HR record confirmed any recent change in\n  responsibilities?"
+  },
+  {
+    "source_document": "insider_drift.md",
+    "document_title": "Insider Behavioral Drift",
+    "section_title": "Defensive Recommendations",
+    "text": "- Because no single event is a strong signal, evaluate this pattern\n  using an extended historical window rather than reacting to any one\n  triggering event in isolation.\n- Confirm with the entity's manager or HR whether a legitimate role or\n  responsibility change explains the drift before escalating.\n- If the drift trends toward sensitive-resource access without a\n  legitimate explanation, treat it as a potential slow-moving insider\n  threat and review the full history of the drift period.\n- Periodically refresh behavioral baselines so genuine legitimate\n  changes (promotions, role changes) don't get permanently flagged, while\n  still requiring sustained evidence -- not a single event -- before\n  updating what's considered \"normal\" for that entity."
+  },
+  {
+    "source_document": "lateral_movement.md",
+    "document_title": "Lateral Movement",
+    "section_title": "Description",
+    "text": "Lateral movement describes an attacker (or a compromised account) rapidly\naccessing multiple different internal systems or resources -- often ones\nthe account has never touched before -- shortly after establishing initial\naccess. This is typically the stage of an incident where an attacker who\nhas already gained a foothold is exploring the environment to find\nsensitive data or expand their reach, rather than the initial break-in\nitself."
+  },
+  {
+    "source_document": "lateral_movement.md",
+    "document_title": "Lateral Movement",
+    "section_title": "Indicators",
+    "text": "- A single entity accessing several distinct resources in quick\n  succession (minutes apart), especially resources it has no history of\n  using.\n- The resources touched often escalate in sensitivity (e.g., moving from\n  a low-sensitivity wiki to a finance database or admin console).\n- Lateral movement frequently follows another anomaly earlier in the\n  same session -- an impossible-travel login, a new/unrecognized device,\n  or a successful brute-force/credential-stuffing attempt.\n- Access patterns look like systematic exploration rather than a normal\n  user's typical, narrow set of daily resources."
+  },
+  {
+    "source_document": "lateral_movement.md",
+    "document_title": "Lateral Movement",
+    "section_title": "Investigation Questions",
+    "text": "- What resource was accessed FIRST in this sequence, and does that\n  match a plausible legitimate entry point?\n- What is the sensitivity of each resource touched, and was any\n  high-sensitivity data actually exfiltrated or modified?\n- What preceded this activity -- was there an earlier anomaly (login\n  from a new device/location, or a successful brute-force/credential\n  event) for the same entity?\n- Is this pattern consistent with legitimate cross-team work (e.g., an\n  engineer debugging across several services) or does it look like\n  reconnaissance?"
+  },
+  {
+    "source_document": "lateral_movement.md",
+    "document_title": "Lateral Movement",
+    "section_title": "Defensive Recommendations",
+    "text": "- Treat rapid multi-resource access touching high-sensitivity systems as\n  high priority, especially when it follows another anomaly.\n- Temporarily restrict the account's access while investigating, if\n  sensitive systems were touched.\n- Review network segmentation -- lateral movement is often easier than\n  it should be when internal systems trust each other too broadly.\n- Correlate with the account's earlier activity in the same session to\n  understand the full attack chain, not just this one alert in isolation."
+  },
+  {
+    "source_document": "low_slow_exfiltration.md",
+    "document_title": "Low-and-Slow Exfiltration",
+    "section_title": "Description",
+    "text": "Low-and-slow exfiltration is a deliberately patient attack pattern where\nsensitive data is accessed and extracted in small amounts spread across\nmany days or weeks, specifically to avoid triggering volume- or\nfrequency-based detection. Each individual access may look almost\nunremarkable on its own; the signal only becomes clear when viewed across\na longer time horizon, where a pattern of repeated, unusual access to\nsensitive resources -- often paired with export- or archive-style\ncommands -- emerges."
+  },
+  {
+    "source_document": "low_slow_exfiltration.md",
+    "document_title": "Low-and-Slow Exfiltration",
+    "section_title": "Indicators",
+    "text": "- Repeated access to high-sensitivity resources (e.g., a finance\n  database, customer data, a backup vault) that is unusual for this\n  entity's normal role.\n- Access is sparse and spread out -- days apart -- rather than clustered,\n  which is precisely what makes it evade simple rate-based alerting.\n- Sessions are often longer than the entity's typical session length,\n  and commonly paired with commands associated with copying, exporting,\n  or archiving data (e.g., export, zip, file transfer commands).\n- The entity's device and location are frequently unchanged (this is\n  usually an insider or an attacker fully in control of a legitimate\n  session, not a login-time anomaly)."
+  },
+  {
+    "source_document": "low_slow_exfiltration.md",
+    "document_title": "Low-and-Slow Exfiltration",
+    "section_title": "Investigation Questions",
+    "text": "- Over what total time span has this pattern occurred, and how many\n  separate instances are there?\n- Is access to this resource consistent with the entity's actual job\n  function, or is it a genuine departure from their normal role?\n- What specific data was touched in each instance, and does the volume\n  or sensitivity add up to something concerning in aggregate?\n- Were export/archive/transfer commands used, and where did any\n  exported data go afterward?"
+  },
+  {
+    "source_document": "low_slow_exfiltration.md",
+    "document_title": "Low-and-Slow Exfiltration",
+    "section_title": "Defensive Recommendations",
+    "text": "- Implement long-window behavioral baselines (not just short-term rate\n  limits) specifically to catch this class of slow, patient activity.\n- Apply data-loss-prevention controls on sensitive resources that flag\n  or block bulk export/archive operations regardless of how the access\n  was spread over time.\n- Review the entity's legitimate need for access to the resource in\n  question, and consider tightening role-based access controls.\n- Treat confirmed low-and-slow exfiltration as a serious incident --\n  this pattern is specifically designed to look unremarkable, so once\n  identified it warrants a full historical review, not just the\n  triggering event."
+  }
+]

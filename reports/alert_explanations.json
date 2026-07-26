@@ -1,0 +1,947 @@
+[
+  {
+    "event_id": "EVT-0000704",
+    "entity_id": "USER_013",
+    "risk_score": 95.82,
+    "risk_level": "CRITICAL",
+    "predicted_attack_type": "lateral_movement",
+    "attack_confidence": 1.0,
+    "classifier_evidence": [
+      {
+        "feature": "command_novelty",
+        "display_name": "Use of commands not previously seen for this entity",
+        "feature_value": 0.3333333432674408,
+        "shap_contribution": 4.3347,
+        "direction": "increases"
+      },
+      {
+        "feature": "geo_velocity",
+        "display_name": "Implied travel speed between consecutive logins",
+        "feature_value": 6597.6953125,
+        "shap_contribution": 0.7578,
+        "direction": "increases"
+      },
+      {
+        "feature": "resource_novelty",
+        "display_name": "How rarely (or never) this entity has accessed this resource",
+        "feature_value": 0.9952714443206787,
+        "shap_contribution": 0.5057,
+        "direction": "increases"
+      },
+      {
+        "feature": "device_consistency_score",
+        "display_name": "How consistently this entity uses its most common device",
+        "feature_value": 0.4545454680919647,
+        "shap_contribution": -0.3144,
+        "direction": "decreases"
+      },
+      {
+        "feature": "distance_from_previous_login",
+        "display_name": "Geographic distance from the previous login",
+        "feature_value": 8074.2607421875,
+        "shap_contribution": 0.3094,
+        "direction": "increases"
+      }
+    ],
+    "sequence_evidence": [
+      {
+        "feature": "new_device",
+        "display_name": "Login from a device never seen before for this entity",
+        "reconstruction_error": 13.7266
+      },
+      {
+        "feature": "unusual_location",
+        "display_name": "Login from a location not previously seen for this entity",
+        "reconstruction_error": 10.351
+      },
+      {
+        "feature": "command_novelty",
+        "display_name": "Use of commands not previously seen for this entity",
+        "reconstruction_error": 9.1651
+      }
+    ],
+    "note": "SHAP values are feature attributions for this classification, not probabilities. Reconstruction error highlights which behavioral signals looked least 'normal' in the recent event sequence."
+  },
+  {
+    "event_id": "EVT-0000206",
+    "entity_id": "USER_007",
+    "risk_score": 94.14,
+    "risk_level": "CRITICAL",
+    "predicted_attack_type": "brute_force",
+    "attack_confidence": 1.0,
+    "classifier_evidence": [
+      {
+        "feature": "failed_attempts_last_10m",
+        "display_name": "Failed login attempts in the last 10 minutes",
+        "feature_value": 1.0,
+        "shap_contribution": 3.746,
+        "direction": "increases"
+      },
+      {
+        "feature": "command_frequency",
+        "display_name": "How common these commands are for this entity",
+        "feature_value": 0.0,
+        "shap_contribution": 1.6406,
+        "direction": "increases"
+      },
+      {
+        "feature": "unusual_auth_method",
+        "display_name": "Authentication method rarely used by this entity",
+        "feature_value": 1.0,
+        "shap_contribution": 0.6365,
+        "direction": "increases"
+      },
+      {
+        "feature": "time_since_last_event",
+        "display_name": "Time since this entity's previous event",
+        "feature_value": 0.38333332538604736,
+        "shap_contribution": 0.3572,
+        "direction": "increases"
+      },
+      {
+        "feature": "hour_of_day",
+        "display_name": "Hour of day of this event",
+        "feature_value": 10.0,
+        "shap_contribution": 0.3531,
+        "direction": "increases"
+      }
+    ],
+    "sequence_evidence": [
+      {
+        "feature": "unusual_location",
+        "display_name": "Login from a location not previously seen for this entity",
+        "reconstruction_error": 20.803
+      },
+      {
+        "feature": "new_device",
+        "display_name": "Login from a device never seen before for this entity",
+        "reconstruction_error": 17.2512
+      },
+      {
+        "feature": "command_novelty",
+        "display_name": "Use of commands not previously seen for this entity",
+        "reconstruction_error": 11.0565
+      }
+    ],
+    "note": "SHAP values are feature attributions for this classification, not probabilities. Reconstruction error highlights which behavioral signals looked least 'normal' in the recent event sequence."
+  },
+  {
+    "event_id": "EVT-0000209",
+    "entity_id": "USER_007",
+    "risk_score": 93.43,
+    "risk_level": "CRITICAL",
+    "predicted_attack_type": "brute_force",
+    "attack_confidence": 1.0,
+    "classifier_evidence": [
+      {
+        "feature": "failed_attempts_last_10m",
+        "display_name": "Failed login attempts in the last 10 minutes",
+        "feature_value": 3.0,
+        "shap_contribution": 4.2922,
+        "direction": "increases"
+      },
+      {
+        "feature": "command_frequency",
+        "display_name": "How common these commands are for this entity",
+        "feature_value": 0.0,
+        "shap_contribution": 1.6365,
+        "direction": "increases"
+      },
+      {
+        "feature": "unusual_auth_method",
+        "display_name": "Authentication method rarely used by this entity",
+        "feature_value": 0.0,
+        "shap_contribution": -0.3906,
+        "direction": "decreases"
+      },
+      {
+        "feature": "time_since_last_event",
+        "display_name": "Time since this entity's previous event",
+        "feature_value": 0.5333333611488342,
+        "shap_contribution": 0.3641,
+        "direction": "increases"
+      },
+      {
+        "feature": "hour_of_day",
+        "display_name": "Hour of day of this event",
+        "feature_value": 10.0,
+        "shap_contribution": 0.2893,
+        "direction": "increases"
+      }
+    ],
+    "sequence_evidence": [
+      {
+        "feature": "new_device",
+        "display_name": "Login from a device never seen before for this entity",
+        "reconstruction_error": 37.4015
+      },
+      {
+        "feature": "unusual_location",
+        "display_name": "Login from a location not previously seen for this entity",
+        "reconstruction_error": 33.3815
+      },
+      {
+        "feature": "failed_attempts_last_10m",
+        "display_name": "Failed login attempts in the last 10 minutes",
+        "reconstruction_error": 28.3318
+      }
+    ],
+    "note": "SHAP values are feature attributions for this classification, not probabilities. Reconstruction error highlights which behavioral signals looked least 'normal' in the recent event sequence."
+  },
+  {
+    "event_id": "EVT-0000212",
+    "entity_id": "USER_007",
+    "risk_score": 93.09,
+    "risk_level": "CRITICAL",
+    "predicted_attack_type": "brute_force",
+    "attack_confidence": 1.0,
+    "classifier_evidence": [
+      {
+        "feature": "failed_attempts_last_10m",
+        "display_name": "Failed login attempts in the last 10 minutes",
+        "feature_value": 4.0,
+        "shap_contribution": 4.2819,
+        "direction": "increases"
+      },
+      {
+        "feature": "command_frequency",
+        "display_name": "How common these commands are for this entity",
+        "feature_value": 0.0,
+        "shap_contribution": 1.6365,
+        "direction": "increases"
+      },
+      {
+        "feature": "unusual_auth_method",
+        "display_name": "Authentication method rarely used by this entity",
+        "feature_value": 0.0,
+        "shap_contribution": -0.3461,
+        "direction": "decreases"
+      },
+      {
+        "feature": "time_since_last_event",
+        "display_name": "Time since this entity's previous event",
+        "feature_value": 1.7999999523162842,
+        "shap_contribution": 0.341,
+        "direction": "increases"
+      },
+      {
+        "feature": "hour_of_day",
+        "display_name": "Hour of day of this event",
+        "feature_value": 10.0,
+        "shap_contribution": 0.2893,
+        "direction": "increases"
+      }
+    ],
+    "sequence_evidence": [
+      {
+        "feature": "failed_attempts_last_10m",
+        "display_name": "Failed login attempts in the last 10 minutes",
+        "reconstruction_error": 48.4884
+      },
+      {
+        "feature": "new_device",
+        "display_name": "Login from a device never seen before for this entity",
+        "reconstruction_error": 46.9189
+      },
+      {
+        "feature": "unusual_location",
+        "display_name": "Login from a location not previously seen for this entity",
+        "reconstruction_error": 44.1372
+      }
+    ],
+    "note": "SHAP values are feature attributions for this classification, not probabilities. Reconstruction error highlights which behavioral signals looked least 'normal' in the recent event sequence."
+  },
+  {
+    "event_id": "EVT-0000213",
+    "entity_id": "USER_007",
+    "risk_score": 92.7,
+    "risk_level": "CRITICAL",
+    "predicted_attack_type": "brute_force",
+    "attack_confidence": 1.0,
+    "classifier_evidence": [
+      {
+        "feature": "failed_attempts_last_10m",
+        "display_name": "Failed login attempts in the last 10 minutes",
+        "feature_value": 5.0,
+        "shap_contribution": 4.2922,
+        "direction": "increases"
+      },
+      {
+        "feature": "command_frequency",
+        "display_name": "How common these commands are for this entity",
+        "feature_value": 0.0,
+        "shap_contribution": 1.6365,
+        "direction": "increases"
+      },
+      {
+        "feature": "time_since_last_event",
+        "display_name": "Time since this entity's previous event",
+        "feature_value": 0.25,
+        "shap_contribution": 0.3641,
+        "direction": "increases"
+      },
+      {
+        "feature": "unusual_auth_method",
+        "display_name": "Authentication method rarely used by this entity",
+        "feature_value": 0.0,
+        "shap_contribution": -0.3461,
+        "direction": "decreases"
+      },
+      {
+        "feature": "hour_of_day",
+        "display_name": "Hour of day of this event",
+        "feature_value": 10.0,
+        "shap_contribution": 0.2893,
+        "direction": "increases"
+      }
+    ],
+    "sequence_evidence": [
+      {
+        "feature": "failed_attempts_last_10m",
+        "display_name": "Failed login attempts in the last 10 minutes",
+        "reconstruction_error": 73.4025
+      },
+      {
+        "feature": "unusual_location",
+        "display_name": "Login from a location not previously seen for this entity",
+        "reconstruction_error": 54.0279
+      },
+      {
+        "feature": "new_device",
+        "display_name": "Login from a device never seen before for this entity",
+        "reconstruction_error": 54.0259
+      }
+    ],
+    "note": "SHAP values are feature attributions for this classification, not probabilities. Reconstruction error highlights which behavioral signals looked least 'normal' in the recent event sequence."
+  },
+  {
+    "event_id": "EVT-0012595",
+    "entity_id": "USER_030",
+    "risk_score": 91.74,
+    "risk_level": "CRITICAL",
+    "predicted_attack_type": "brute_force",
+    "attack_confidence": 1.0,
+    "classifier_evidence": [
+      {
+        "feature": "failed_attempts_last_10m",
+        "display_name": "Failed login attempts in the last 10 minutes",
+        "feature_value": 10.0,
+        "shap_contribution": 3.4962,
+        "direction": "increases"
+      },
+      {
+        "feature": "command_frequency",
+        "display_name": "How common these commands are for this entity",
+        "feature_value": 0.0,
+        "shap_contribution": 1.6199,
+        "direction": "increases"
+      },
+      {
+        "feature": "unusual_auth_method",
+        "display_name": "Authentication method rarely used by this entity",
+        "feature_value": 1.0,
+        "shap_contribution": 0.6472,
+        "direction": "increases"
+      },
+      {
+        "feature": "time_since_last_event",
+        "display_name": "Time since this entity's previous event",
+        "feature_value": 0.6333333253860474,
+        "shap_contribution": 0.352,
+        "direction": "increases"
+      },
+      {
+        "feature": "events_last_1h",
+        "display_name": "Number of this entity's events in the last hour",
+        "feature_value": 12.0,
+        "shap_contribution": 0.2072,
+        "direction": "increases"
+      }
+    ],
+    "sequence_evidence": [
+      {
+        "feature": "failed_attempts_last_10m",
+        "display_name": "Failed login attempts in the last 10 minutes",
+        "reconstruction_error": 261.3552
+      },
+      {
+        "feature": "new_device",
+        "display_name": "Login from a device never seen before for this entity",
+        "reconstruction_error": 57.1564
+      },
+      {
+        "feature": "events_last_10m",
+        "display_name": "Number of this entity's events in the last 10 minutes",
+        "reconstruction_error": 53.569
+      }
+    ],
+    "note": "SHAP values are feature attributions for this classification, not probabilities. Reconstruction error highlights which behavioral signals looked least 'normal' in the recent event sequence."
+  },
+  {
+    "event_id": "EVT-0012590",
+    "entity_id": "USER_030",
+    "risk_score": 91.65,
+    "risk_level": "CRITICAL",
+    "predicted_attack_type": "brute_force",
+    "attack_confidence": 1.0,
+    "classifier_evidence": [
+      {
+        "feature": "failed_attempts_last_10m",
+        "display_name": "Failed login attempts in the last 10 minutes",
+        "feature_value": 8.0,
+        "shap_contribution": 3.4894,
+        "direction": "increases"
+      },
+      {
+        "feature": "command_frequency",
+        "display_name": "How common these commands are for this entity",
+        "feature_value": 0.0,
+        "shap_contribution": 1.6199,
+        "direction": "increases"
+      },
+      {
+        "feature": "unusual_auth_method",
+        "display_name": "Authentication method rarely used by this entity",
+        "feature_value": 1.0,
+        "shap_contribution": 0.6604,
+        "direction": "increases"
+      },
+      {
+        "feature": "time_since_last_event",
+        "display_name": "Time since this entity's previous event",
+        "feature_value": 0.2666666805744171,
+        "shap_contribution": 0.352,
+        "direction": "increases"
+      },
+      {
+        "feature": "events_last_1h",
+        "display_name": "Number of this entity's events in the last hour",
+        "feature_value": 10.0,
+        "shap_contribution": 0.2072,
+        "direction": "increases"
+      }
+    ],
+    "sequence_evidence": [
+      {
+        "feature": "failed_attempts_last_10m",
+        "display_name": "Failed login attempts in the last 10 minutes",
+        "reconstruction_error": 176.6343
+      },
+      {
+        "feature": "new_device",
+        "display_name": "Login from a device never seen before for this entity",
+        "reconstruction_error": 58.0298
+      },
+      {
+        "feature": "events_last_10m",
+        "display_name": "Number of this entity's events in the last 10 minutes",
+        "reconstruction_error": 38.853
+      }
+    ],
+    "note": "SHAP values are feature attributions for this classification, not probabilities. Reconstruction error highlights which behavioral signals looked least 'normal' in the recent event sequence."
+  },
+  {
+    "event_id": "EVT-0012588",
+    "entity_id": "USER_030",
+    "risk_score": 91.57,
+    "risk_level": "CRITICAL",
+    "predicted_attack_type": "brute_force",
+    "attack_confidence": 1.0,
+    "classifier_evidence": [
+      {
+        "feature": "failed_attempts_last_10m",
+        "display_name": "Failed login attempts in the last 10 minutes",
+        "feature_value": 7.0,
+        "shap_contribution": 3.5456,
+        "direction": "increases"
+      },
+      {
+        "feature": "command_frequency",
+        "display_name": "How common these commands are for this entity",
+        "feature_value": 0.0,
+        "shap_contribution": 1.6077,
+        "direction": "increases"
+      },
+      {
+        "feature": "unusual_auth_method",
+        "display_name": "Authentication method rarely used by this entity",
+        "feature_value": 1.0,
+        "shap_contribution": 0.65,
+        "direction": "increases"
+      },
+      {
+        "feature": "time_since_last_event",
+        "display_name": "Time since this entity's previous event",
+        "feature_value": 0.06666667014360428,
+        "shap_contribution": 0.352,
+        "direction": "increases"
+      },
+      {
+        "feature": "events_last_1h",
+        "display_name": "Number of this entity's events in the last hour",
+        "feature_value": 9.0,
+        "shap_contribution": 0.2306,
+        "direction": "increases"
+      }
+    ],
+    "sequence_evidence": [
+      {
+        "feature": "failed_attempts_last_10m",
+        "display_name": "Failed login attempts in the last 10 minutes",
+        "reconstruction_error": 138.1525
+      },
+      {
+        "feature": "new_device",
+        "display_name": "Login from a device never seen before for this entity",
+        "reconstruction_error": 53.8705
+      },
+      {
+        "feature": "events_last_10m",
+        "display_name": "Number of this entity's events in the last 10 minutes",
+        "reconstruction_error": 29.5272
+      }
+    ],
+    "note": "SHAP values are feature attributions for this classification, not probabilities. Reconstruction error highlights which behavioral signals looked least 'normal' in the recent event sequence."
+  },
+  {
+    "event_id": "EVT-0007808",
+    "entity_id": "USER_047",
+    "risk_score": 91.41,
+    "risk_level": "CRITICAL",
+    "predicted_attack_type": "brute_force",
+    "attack_confidence": 1.0,
+    "classifier_evidence": [
+      {
+        "feature": "failed_attempts_last_10m",
+        "display_name": "Failed login attempts in the last 10 minutes",
+        "feature_value": 8.0,
+        "shap_contribution": 3.2724,
+        "direction": "increases"
+      },
+      {
+        "feature": "command_frequency",
+        "display_name": "How common these commands are for this entity",
+        "feature_value": 0.0,
+        "shap_contribution": 1.6576,
+        "direction": "increases"
+      },
+      {
+        "feature": "unusual_auth_method",
+        "display_name": "Authentication method rarely used by this entity",
+        "feature_value": 1.0,
+        "shap_contribution": 0.7349,
+        "direction": "increases"
+      },
+      {
+        "feature": "hour_of_day",
+        "display_name": "Hour of day of this event",
+        "feature_value": 19.0,
+        "shap_contribution": 0.4784,
+        "direction": "increases"
+      },
+      {
+        "feature": "time_since_last_event",
+        "display_name": "Time since this entity's previous event",
+        "feature_value": 0.23333333432674408,
+        "shap_contribution": 0.3318,
+        "direction": "increases"
+      }
+    ],
+    "sequence_evidence": [
+      {
+        "feature": "failed_attempts_last_10m",
+        "display_name": "Failed login attempts in the last 10 minutes",
+        "reconstruction_error": 196.0966
+      },
+      {
+        "feature": "new_device",
+        "display_name": "Login from a device never seen before for this entity",
+        "reconstruction_error": 61.1618
+      },
+      {
+        "feature": "unusual_location",
+        "display_name": "Login from a location not previously seen for this entity",
+        "reconstruction_error": 53.3854
+      }
+    ],
+    "note": "SHAP values are feature attributions for this classification, not probabilities. Reconstruction error highlights which behavioral signals looked least 'normal' in the recent event sequence."
+  },
+  {
+    "event_id": "EVT-0015913",
+    "entity_id": "USER_055",
+    "risk_score": 91.25,
+    "risk_level": "CRITICAL",
+    "predicted_attack_type": "brute_force",
+    "attack_confidence": 1.0,
+    "classifier_evidence": [
+      {
+        "feature": "failed_attempts_last_10m",
+        "display_name": "Failed login attempts in the last 10 minutes",
+        "feature_value": 8.0,
+        "shap_contribution": 3.4176,
+        "direction": "increases"
+      },
+      {
+        "feature": "command_frequency",
+        "display_name": "How common these commands are for this entity",
+        "feature_value": 0.0,
+        "shap_contribution": 1.6489,
+        "direction": "increases"
+      },
+      {
+        "feature": "unusual_auth_method",
+        "display_name": "Authentication method rarely used by this entity",
+        "feature_value": 1.0,
+        "shap_contribution": 0.6899,
+        "direction": "increases"
+      },
+      {
+        "feature": "hour_of_day",
+        "display_name": "Hour of day of this event",
+        "feature_value": 13.0,
+        "shap_contribution": 0.4048,
+        "direction": "increases"
+      },
+      {
+        "feature": "time_since_last_event",
+        "display_name": "Time since this entity's previous event",
+        "feature_value": 0.4000000059604645,
+        "shap_contribution": 0.3529,
+        "direction": "increases"
+      }
+    ],
+    "sequence_evidence": [
+      {
+        "feature": "failed_attempts_last_10m",
+        "display_name": "Failed login attempts in the last 10 minutes",
+        "reconstruction_error": 174.9712
+      },
+      {
+        "feature": "unusual_location",
+        "display_name": "Login from a location not previously seen for this entity",
+        "reconstruction_error": 55.0161
+      },
+      {
+        "feature": "new_device",
+        "display_name": "Login from a device never seen before for this entity",
+        "reconstruction_error": 53.0558
+      }
+    ],
+    "note": "SHAP values are feature attributions for this classification, not probabilities. Reconstruction error highlights which behavioral signals looked least 'normal' in the recent event sequence."
+  },
+  {
+    "event_id": "EVT-0017046",
+    "entity_id": "USER_003",
+    "risk_score": 91.23,
+    "risk_level": "CRITICAL",
+    "predicted_attack_type": "brute_force",
+    "attack_confidence": 1.0,
+    "classifier_evidence": [
+      {
+        "feature": "failed_attempts_last_10m",
+        "display_name": "Failed login attempts in the last 10 minutes",
+        "feature_value": 8.0,
+        "shap_contribution": 4.2419,
+        "direction": "increases"
+      },
+      {
+        "feature": "hour_of_day",
+        "display_name": "Hour of day of this event",
+        "feature_value": 6.0,
+        "shap_contribution": -1.4764,
+        "direction": "decreases"
+      },
+      {
+        "feature": "command_frequency",
+        "display_name": "How common these commands are for this entity",
+        "feature_value": 0.0,
+        "shap_contribution": 1.1453,
+        "direction": "increases"
+      },
+      {
+        "feature": "time_since_last_event",
+        "display_name": "Time since this entity's previous event",
+        "feature_value": 1.0499999523162842,
+        "shap_contribution": 0.354,
+        "direction": "increases"
+      },
+      {
+        "feature": "unusual_auth_method",
+        "display_name": "Authentication method rarely used by this entity",
+        "feature_value": 0.0,
+        "shap_contribution": -0.3175,
+        "direction": "decreases"
+      }
+    ],
+    "sequence_evidence": [
+      {
+        "feature": "failed_attempts_last_10m",
+        "display_name": "Failed login attempts in the last 10 minutes",
+        "reconstruction_error": 175.698
+      },
+      {
+        "feature": "unusual_location",
+        "display_name": "Login from a location not previously seen for this entity",
+        "reconstruction_error": 62.0026
+      },
+      {
+        "feature": "new_device",
+        "display_name": "Login from a device never seen before for this entity",
+        "reconstruction_error": 52.806
+      }
+    ],
+    "note": "SHAP values are feature attributions for this classification, not probabilities. Reconstruction error highlights which behavioral signals looked least 'normal' in the recent event sequence."
+  },
+  {
+    "event_id": "EVT-0007801",
+    "entity_id": "USER_047",
+    "risk_score": 91.21,
+    "risk_level": "CRITICAL",
+    "predicted_attack_type": "brute_force",
+    "attack_confidence": 1.0,
+    "classifier_evidence": [
+      {
+        "feature": "failed_attempts_last_10m",
+        "display_name": "Failed login attempts in the last 10 minutes",
+        "feature_value": 3.0,
+        "shap_contribution": 3.2079,
+        "direction": "increases"
+      },
+      {
+        "feature": "command_frequency",
+        "display_name": "How common these commands are for this entity",
+        "feature_value": 0.0,
+        "shap_contribution": 1.6694,
+        "direction": "increases"
+      },
+      {
+        "feature": "unusual_auth_method",
+        "display_name": "Authentication method rarely used by this entity",
+        "feature_value": 1.0,
+        "shap_contribution": 0.7829,
+        "direction": "increases"
+      },
+      {
+        "feature": "hour_of_day",
+        "display_name": "Hour of day of this event",
+        "feature_value": 18.0,
+        "shap_contribution": 0.4783,
+        "direction": "increases"
+      },
+      {
+        "feature": "time_since_last_event",
+        "display_name": "Time since this entity's previous event",
+        "feature_value": 0.3333333432674408,
+        "shap_contribution": 0.3318,
+        "direction": "increases"
+      }
+    ],
+    "sequence_evidence": [
+      {
+        "feature": "unusual_location",
+        "display_name": "Login from a location not previously seen for this entity",
+        "reconstruction_error": 41.033
+      },
+      {
+        "feature": "new_device",
+        "display_name": "Login from a device never seen before for this entity",
+        "reconstruction_error": 33.2981
+      },
+      {
+        "feature": "failed_attempts_last_10m",
+        "display_name": "Failed login attempts in the last 10 minutes",
+        "reconstruction_error": 28.3382
+      }
+    ],
+    "note": "SHAP values are feature attributions for this classification, not probabilities. Reconstruction error highlights which behavioral signals looked least 'normal' in the recent event sequence."
+  },
+  {
+    "event_id": "EVT-0017042",
+    "entity_id": "USER_003",
+    "risk_score": 91.18,
+    "risk_level": "CRITICAL",
+    "predicted_attack_type": "credential_stuffing",
+    "attack_confidence": 1.0,
+    "classifier_evidence": [
+      {
+        "feature": "command_frequency",
+        "display_name": "How common these commands are for this entity",
+        "feature_value": 0.0,
+        "shap_contribution": 2.6978,
+        "direction": "increases"
+      },
+      {
+        "feature": "hour_of_day",
+        "display_name": "Hour of day of this event",
+        "feature_value": 6.0,
+        "shap_contribution": 2.2976,
+        "direction": "increases"
+      },
+      {
+        "feature": "unusual_auth_method",
+        "display_name": "Authentication method rarely used by this entity",
+        "feature_value": 0.0,
+        "shap_contribution": -0.4864,
+        "direction": "decreases"
+      },
+      {
+        "feature": "session_duration_deviation",
+        "display_name": "Session length compared to this entity's typical pattern",
+        "feature_value": -4.136290073394775,
+        "shap_contribution": 0.4606,
+        "direction": "increases"
+      },
+      {
+        "feature": "time_since_last_event",
+        "display_name": "Time since this entity's previous event",
+        "feature_value": 0.10000000149011612,
+        "shap_contribution": -0.3927,
+        "direction": "decreases"
+      }
+    ],
+    "sequence_evidence": [
+      {
+        "feature": "failed_attempts_last_10m",
+        "display_name": "Failed login attempts in the last 10 minutes",
+        "reconstruction_error": 104.3663
+      },
+      {
+        "feature": "unusual_location",
+        "display_name": "Login from a location not previously seen for this entity",
+        "reconstruction_error": 46.2377
+      },
+      {
+        "feature": "new_device",
+        "display_name": "Login from a device never seen before for this entity",
+        "reconstruction_error": 44.8653
+      }
+    ],
+    "note": "SHAP values are feature attributions for this classification, not probabilities. Reconstruction error highlights which behavioral signals looked least 'normal' in the recent event sequence."
+  },
+  {
+    "event_id": "EVT-0015910",
+    "entity_id": "USER_055",
+    "risk_score": 91.14,
+    "risk_level": "CRITICAL",
+    "predicted_attack_type": "brute_force",
+    "attack_confidence": 1.0,
+    "classifier_evidence": [
+      {
+        "feature": "failed_attempts_last_10m",
+        "display_name": "Failed login attempts in the last 10 minutes",
+        "feature_value": 6.0,
+        "shap_contribution": 3.2846,
+        "direction": "increases"
+      },
+      {
+        "feature": "command_frequency",
+        "display_name": "How common these commands are for this entity",
+        "feature_value": 0.0,
+        "shap_contribution": 1.6607,
+        "direction": "increases"
+      },
+      {
+        "feature": "unusual_auth_method",
+        "display_name": "Authentication method rarely used by this entity",
+        "feature_value": 1.0,
+        "shap_contribution": 0.7058,
+        "direction": "increases"
+      },
+      {
+        "feature": "hour_of_day",
+        "display_name": "Hour of day of this event",
+        "feature_value": 13.0,
+        "shap_contribution": 0.4047,
+        "direction": "increases"
+      },
+      {
+        "feature": "time_since_last_event",
+        "display_name": "Time since this entity's previous event",
+        "feature_value": 1.9666666984558105,
+        "shap_contribution": 0.3298,
+        "direction": "increases"
+      }
+    ],
+    "sequence_evidence": [
+      {
+        "feature": "failed_attempts_last_10m",
+        "display_name": "Failed login attempts in the last 10 minutes",
+        "reconstruction_error": 103.8797
+      },
+      {
+        "feature": "new_device",
+        "display_name": "Login from a device never seen before for this entity",
+        "reconstruction_error": 49.6156
+      },
+      {
+        "feature": "unusual_location",
+        "display_name": "Login from a location not previously seen for this entity",
+        "reconstruction_error": 49.3931
+      }
+    ],
+    "note": "SHAP values are feature attributions for this classification, not probabilities. Reconstruction error highlights which behavioral signals looked least 'normal' in the recent event sequence."
+  },
+  {
+    "event_id": "EVT-0007800",
+    "entity_id": "USER_047",
+    "risk_score": 91.07,
+    "risk_level": "CRITICAL",
+    "predicted_attack_type": "brute_force",
+    "attack_confidence": 1.0,
+    "classifier_evidence": [
+      {
+        "feature": "failed_attempts_last_10m",
+        "display_name": "Failed login attempts in the last 10 minutes",
+        "feature_value": 2.0,
+        "shap_contribution": 3.2724,
+        "direction": "increases"
+      },
+      {
+        "feature": "command_frequency",
+        "display_name": "How common these commands are for this entity",
+        "feature_value": 0.0,
+        "shap_contribution": 1.6563,
+        "direction": "increases"
+      },
+      {
+        "feature": "unusual_auth_method",
+        "display_name": "Authentication method rarely used by this entity",
+        "feature_value": 1.0,
+        "shap_contribution": 0.7736,
+        "direction": "increases"
+      },
+      {
+        "feature": "hour_of_day",
+        "display_name": "Hour of day of this event",
+        "feature_value": 18.0,
+        "shap_contribution": 0.4781,
+        "direction": "increases"
+      },
+      {
+        "feature": "time_since_last_event",
+        "display_name": "Time since this entity's previous event",
+        "feature_value": 0.1666666716337204,
+        "shap_contribution": 0.3318,
+        "direction": "increases"
+      }
+    ],
+    "sequence_evidence": [
+      {
+        "feature": "unusual_location",
+        "display_name": "Login from a location not previously seen for this entity",
+        "reconstruction_error": 29.8066
+      },
+      {
+        "feature": "new_device",
+        "display_name": "Login from a device never seen before for this entity",
+        "reconstruction_error": 22.6131
+      },
+      {
+        "feature": "failed_attempts_last_10m",
+        "display_name": "Failed login attempts in the last 10 minutes",
+        "reconstruction_error": 13.3599
+      }
+    ],
+    "note": "SHAP values are feature attributions for this classification, not probabilities. Reconstruction error highlights which behavioral signals looked least 'normal' in the recent event sequence."
+  }
+]

@@ -1,0 +1,206 @@
+{
+  "test_split_size": 2177,
+  "test_actual_anomalies": 71,
+  "anomaly_detection": {
+    "operating_threshold": 60.0,
+    "precision": 0.9795918367346939,
+    "recall": 0.676056338028169,
+    "f1": 0.8,
+    "false_positive_rate": 0.0004748338081671415,
+    "pr_auc": 0.9035716868831254,
+    "roc_auc": 0.9773183259098752,
+    "confusion_matrix": {
+      "tn": 2105,
+      "fp": 1,
+      "fn": 23,
+      "tp": 48
+    },
+    "n_flagged": 49,
+    "n_total": 2177,
+    "n_actual_anomalies": 71
+  },
+  "attack_classification": {
+    "macro_f1": 0.7011704207377776,
+    "weighted_f1": 0.9876216316345136,
+    "per_class": {
+      "brute_force": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 10
+      },
+      "credential_stuffing": {
+        "precision": 0.6428571428571429,
+        "recall": 1.0,
+        "f1": 0.782608695652174,
+        "support": 18
+      },
+      "device_spoofing": {
+        "precision": 1.0,
+        "recall": 0.3333333333333333,
+        "f1": 0.5,
+        "support": 3
+      },
+      "impossible_travel": {
+        "precision": 0.8888888888888888,
+        "recall": 0.8888888888888888,
+        "f1": 0.8888888888888888,
+        "support": 9
+      },
+      "insider_drift": {
+        "precision": 0.7272727272727273,
+        "recall": 0.5714285714285714,
+        "f1": 0.64,
+        "support": 14
+      },
+      "lateral_movement": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 12
+      },
+      "low_slow_exfiltration": {
+        "precision": 0.8,
+        "recall": 0.8,
+        "f1": 0.8,
+        "support": 5
+      },
+      "normal": {
+        "precision": 0.9966840360018948,
+        "recall": 0.9990503323836657,
+        "f1": 0.9978657813611572,
+        "support": 2106
+      }
+    },
+    "confusion_matrix": [
+      [
+        0,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        18,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        8,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        8,
+        0,
+        1,
+        5
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        12,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        4,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        2104
+      ]
+    ],
+    "confusion_matrix_labels": [
+      "brute_force",
+      "credential_stuffing",
+      "device_spoofing",
+      "impossible_travel",
+      "insider_drift",
+      "lateral_movement",
+      "low_slow_exfiltration",
+      "normal"
+    ]
+  },
+  "alert_budget": [
+    {
+      "budget_pct": 0.5,
+      "k_events": 11,
+      "true_positives": 11,
+      "false_positives": 0,
+      "precision_at_k": 1.0,
+      "recall_at_k": 0.1549,
+      "total_anomalies_in_test": 71
+    },
+    {
+      "budget_pct": 1.0,
+      "k_events": 22,
+      "true_positives": 22,
+      "false_positives": 0,
+      "precision_at_k": 1.0,
+      "recall_at_k": 0.3099,
+      "total_anomalies_in_test": 71
+    },
+    {
+      "budget_pct": 2.0,
+      "k_events": 44,
+      "true_positives": 44,
+      "false_positives": 0,
+      "precision_at_k": 1.0,
+      "recall_at_k": 0.6197,
+      "total_anomalies_in_test": 71
+    },
+    {
+      "budget_pct": 5.0,
+      "k_events": 109,
+      "true_positives": 63,
+      "false_positives": 46,
+      "precision_at_k": 0.578,
+      "recall_at_k": 0.8873,
+      "total_anomalies_in_test": 71
+    }
+  ]
+}

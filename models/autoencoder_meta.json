@@ -1,0 +1,41 @@
+{
+  "threshold": 0.5643637180328369,
+  "feature_cols": [
+    "hour_of_day",
+    "day_of_week",
+    "weekend",
+    "time_since_last_event",
+    "events_last_10m",
+    "events_last_1h",
+    "auth_failure_rate",
+    "failed_attempts_last_10m",
+    "unusual_auth_method",
+    "distance_from_previous_login",
+    "geo_velocity",
+    "unusual_location",
+    "new_device",
+    "device_change_frequency",
+    "device_consistency_score",
+    "resource_novelty",
+    "resource_access_frequency",
+    "sensitive_resource_access",
+    "session_duration_deviation",
+    "command_novelty",
+    "command_frequency",
+    "deviation_from_entity_mean",
+    "deviation_from_entity_std",
+    "entity_history_count",
+    "cold_start_weight"
+  ],
+  "sequence_length": 10,
+  "log1p_columns": [
+    "time_since_last_event",
+    "events_last_10m",
+    "events_last_1h",
+    "failed_attempts_last_10m",
+    "distance_from_previous_login",
+    "geo_velocity",
+    "deviation_from_entity_std",
+    "entity_history_count"
+  ]
+}

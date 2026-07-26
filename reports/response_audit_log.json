@@ -1,0 +1,66 @@
+[
+  {
+    "timestamp": "2026-07-26T02:56:38.240324+00:00",
+    "action_type": "block_ip",
+    "approved_by": "bhoobesh",
+    "simulated_request": {
+      "method": "POST",
+      "url": "https://waf.example.com/api/v1/rules/block",
+      "payload": {
+        "ip_range": "185.191.248.161",
+        "duration_minutes": 1440,
+        "reason": "SentinelAI automated risk detection"
+      }
+    },
+    "status": "SIMULATED_NOT_EXECUTED",
+    "note": "This action was NOT sent to any real system. Dry-run only."
+  },
+  {
+    "timestamp": "2026-07-26T02:56:48.507413+00:00",
+    "action_type": "block_ip",
+    "approved_by": "bhoobesh",
+    "simulated_request": {
+      "method": "POST",
+      "url": "https://waf.example.com/api/v1/rules/block",
+      "payload": {
+        "ip_range": "185.191.248.161",
+        "duration_minutes": 1440,
+        "reason": "SentinelAI automated risk detection"
+      }
+    },
+    "status": "SIMULATED_NOT_EXECUTED",
+    "note": "This action was NOT sent to any real system. Dry-run only."
+  },
+  {
+    "timestamp": "2026-07-26T02:56:56.998891+00:00",
+    "action_type": "block_ip",
+    "approved_by": "jdoe",
+    "simulated_request": {
+      "method": "POST",
+      "url": "https://waf.example.com/api/v1/rules/block",
+      "payload": {
+        "ip_range": "185.191.248.161",
+        "duration_minutes": 1440,
+        "reason": "SentinelAI automated risk detection"
+      }
+    },
+    "status": "SIMULATED_NOT_EXECUTED",
+    "note": "This action was NOT sent to any real system. Dry-run only."
+  },
+  {
+    "timestamp": "2026-07-26T03:03:31.432067+00:00",
+    "action_type": "block_ip",
+    "approved_by": "vetri",
+    "simulated_request": {
+      "method": "POST",
+      "url": "https://waf.example.com/api/v1/rules/block",
+      "payload": {
+        "ip_range": "185.191.248.161",
+        "duration_minutes": 1440,
+        "reason": "SentinelAI automated risk detection"
+      }
+    },
+    "status": "SIMULATED_NOT_EXECUTED",
+    "note": "This action was NOT sent to any real system. Dry-run only."
+  }
+]

@@ -1,0 +1,283 @@
+{
+  "EDGE_064": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.1472
+  },
+  "EDGE_065": {
+    "status": "sustained_drift_detected",
+    "first_confirmed_day": "2026-06-15",
+    "final_ewma_score": 0.2797
+  },
+  "EDGE_066": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.2164
+  },
+  "EDGE_067": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.3297
+  },
+  "EDGE_068": {
+    "status": "sustained_drift_detected",
+    "first_confirmed_day": "2026-06-27",
+    "final_ewma_score": 0.425
+  },
+  "EDGE_069": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.1123
+  },
+  "SVC_056": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.0311
+  },
+  "SVC_057": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.0984
+  },
+  "SVC_058": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.2393
+  },
+  "SVC_059": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.0869
+  },
+  "SVC_060": {
+    "status": "sustained_drift_detected",
+    "first_confirmed_day": "2026-06-26",
+    "final_ewma_score": 0.226
+  },
+  "SVC_061": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.0813
+  },
+  "SVC_062": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.4145
+  },
+  "SVC_063": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.1835
+  },
+  "USER_001": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.1625
+  },
+  "USER_002": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.1428
+  },
+  "USER_003": {
+    "status": "sustained_drift_detected",
+    "first_confirmed_day": "2026-07-02",
+    "final_ewma_score": 0.501
+  },
+  "USER_004": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.0918
+  },
+  "USER_005": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.2058
+  },
+  "USER_006": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.083
+  },
+  "USER_007": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.1179
+  },
+  "USER_008": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.0689
+  },
+  "USER_009": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.1519
+  },
+  "USER_010": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.0472
+  },
+  "USER_011": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.0889
+  },
+  "USER_012": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.126
+  },
+  "USER_013": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.1657
+  },
+  "USER_014": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.2515
+  },
+  "USER_015": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.1314
+  },
+  "USER_016": {
+    "status": "sustained_drift_detected",
+    "first_confirmed_day": "2026-06-23",
+    "final_ewma_score": 0.1888
+  },
+  "USER_017": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.249
+  },
+  "USER_018": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.0574
+  },
+  "USER_019": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.2704
+  },
+  "USER_020": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.0556
+  },
+  "USER_021": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.1392
+  },
+  "USER_022": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.0469
+  },
+  "USER_023": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.2682
+  },
+  "USER_024": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.1761
+  },
+  "USER_025": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.1627
+  },
+  "USER_026": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.1017
+  },
+  "USER_027": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.1514
+  },
+  "USER_028": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.1441
+  },
+  "USER_029": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.0889
+  },
+  "USER_030": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.1519
+  },
+  "USER_031": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.1803
+  },
+  "USER_032": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.2887
+  },
+  "USER_033": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.3257
+  },
+  "USER_034": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.0613
+  },
+  "USER_035": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.1806
+  },
+  "USER_036": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.5211
+  },
+  "USER_037": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.1815
+  },
+  "USER_038": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.0263
+  },
+  "USER_039": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.1426
+  },
+  "USER_040": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.1889
+  },
+  "USER_041": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.1717
+  },
+  "USER_042": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.377
+  },
+  "USER_043": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.0709
+  },
+  "USER_044": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.2526
+  },
+  "USER_045": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.0478
+  },
+  "USER_046": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.1507
+  },
+  "USER_047": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.2196
+  },
+  "USER_048": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.144
+  },
+  "USER_049": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.1858
+  },
+  "USER_050": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.1967
+  },
+  "USER_051": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.2446
+  },
+  "USER_052": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.0904
+  },
+  "USER_053": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.113
+  },
+  "USER_054": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.2328
+  },
+  "USER_055": {
+    "status": "no_sustained_drift",
+    "final_ewma_score": 0.4301
+  }
+}
