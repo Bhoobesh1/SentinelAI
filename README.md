@@ -1,5 +1,5 @@
 # SentinelAI — Adaptive Agentic Behavioral Threat Detection & SOC Copilot
-
+# LIVE DEMO - https://sentinelai-bhoobesh122005.streamlit.app/
 ## Status: Stage 12 complete (Streamlit Dashboard)
 
 Setup (if not already done):
